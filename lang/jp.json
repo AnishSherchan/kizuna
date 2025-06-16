@@ -2,5 +2,13 @@
   "HomePage": {
     "title": "Japanese Translation Example",
     "description": "これは日本語の翻訳例です。"   
+  },
+  "nav": {
+    "home": "ホーム",
+    "jobs": "求職",
+    "services": "サービス",
+    "about": "会社概要",
+    "contact": "お問い合わせ",
+    "getStarted": "まずはここから"
   }
 }
