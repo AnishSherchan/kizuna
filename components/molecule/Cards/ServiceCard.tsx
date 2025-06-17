@@ -1,10 +1,8 @@
-import Image, { StaticImageData } from "next/image";
-import React from "react";
-import service1 from "@/public/assets/images/service1.png";
 import Text from "@/components/atom/Text";
+import Image, { StaticImageData } from "next/image";
 
-import { FaArrowRight } from "react-icons/fa";
 import Link from "next/link";
+import { FaArrowRight } from "react-icons/fa";
 
 const ServiceCard = ({
   title,
@@ -26,10 +24,7 @@ const ServiceCard = ({
       </div>
       <div className="flex flex-col gap-[5px] justify-between h-full">
         <div className="flex flex-col gap-[5px]">
-          <Text
-            variant="card_heading"
-            className=""
-          >
+          <Text variant="card_heading" className="">
             {title}
           </Text>
           <Text
