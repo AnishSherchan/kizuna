@@ -6,6 +6,7 @@
 :root {
   --primary: #3B82F6;
   --secondary: #FFBB31;
+  --card-border:#D8D8D8;
   --muted: oklch(0.97 0 0);
   --radius: 0.625rem;
   --background: oklch(1 0 0);
@@ -92,6 +93,10 @@
 } */
 body {
   font-family: 'Satoshi', Arial, Helvetica, sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .dark {

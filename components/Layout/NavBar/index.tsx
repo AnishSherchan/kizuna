@@ -7,7 +7,7 @@ import NavLink from "./NavLink";
 import Link from "next/link";
 import CtaButtons from "./CtaButtons";
 
-const TOP_OFFSET = 150;
+const TOP_OFFSET = 80;
 const Navbar = () => {
   const [showBackground, setShowBackground] = useState(false);
 
@@ -32,7 +32,7 @@ const Navbar = () => {
       }`}
     >
       <MaxWidthWrapper className=" px-[30px] md:px-[60px]">
-        <div className=" overflow-hidden flex items-center justify-between  py-[5px]">
+        <div className=" overflow-hidden flex items-center justify-between px-[5px]  py-[5px]">
           <Link href={"/"}>
             <Image
               src={Logo}

@@ -4,16 +4,17 @@ import OurServices from "@/components/organism/Home/OurServices";
 import About from "@/components/organism/Home/About";
 
 export default function HomePage() {
-    return (
-        <div className="relative h-[200vh]">
-            <div className=" h-[38rem] bg-[url('/assets/images/BackgroundImage.png')] bg-cover bg-center">
-                <MaxWidthWrapper className=" h-full" isPageContent>
-                    {/* Hero Section */}
-                    <HeroSection/>
-                    <OurServices/>
-                    <About/>
-                </MaxWidthWrapper>
-            </div>
-        </div>
-    );
+  return (
+    <div className="relative h-full">
+      <div className=" h-[38rem] bg-[url('/assets/images/BackgroundImage.png')] bg-cover bg-center">
+        <MaxWidthWrapper className="h-full" isPageContent>
+          <HeroSection />
+        </MaxWidthWrapper>
+      </div>
+      <MaxWidthWrapper className="h-full" isPageContent>
+        <OurServices />
+        <About />
+      </MaxWidthWrapper>
+    </div>
+  );
 }

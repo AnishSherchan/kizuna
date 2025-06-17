@@ -1,13 +1,31 @@
-import React from 'react';
+import React from "react";
+import { useTranslations } from "next-intl";
+import { services } from "@/app/constants/config";
+
 import ContentWrapper from "@/components/Layout/ContentWrapper";
+import ServiceCard from "@/components/molecule/Cards/ServiceCard";
 
 const OurServices = () => {
-    return (
-        <ContentWrapper heading={'Our'} subHeading={'Services'}
-                        headingSpan={'Tailored solution for your success, Elevate your experience with Our Exceptional Services Today'}>
-            Testing
-        </ContentWrapper>
-    );
+  const t = useTranslations("ServicesPage");
+  return (
+    <ContentWrapper
+      heading={t("title")}
+      subHeading={t("spanTitle")}
+      headingSpan={t("description")}
+    >
+      <div className="flex flex-row gap-[60px] flex-wrap justify-center ">
+        {services.map((service,i)=>(
+          <li key={i} className="list-none">
+            <ServiceCard title={t(service.service)} desc={t(service.shortDescription)} image={service.image}/>
+          </li>
+        ))}
+
+        {/* <ServiceCard />
+        <ServiceCard />
+        <ServiceCard /> */}
+      </div>
+    </ContentWrapper>
+  );
 };
 
 export default OurServices;
