@@ -2,7 +2,7 @@ import React from "react";
 import Text from "@/components/atom/Text";
 import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
-
+import Link from "next/link";
 
 const HeroSection = () => {
   const t = useTranslations("HomePage");
@@ -22,8 +22,12 @@ const HeroSection = () => {
       </div>
 
       <div className=" flex items-center flex-wrap justify-center gap-[20px]">
-        <Button>{t("find_jobs")}</Button>
-        <Button variant={"secondary"}>{t("explore_services")}</Button>
+        <Link href="/services/employment-support">
+          <Button>{t("find_jobs")}</Button>
+        </Link>
+        <Link href={"/services"}>
+          <Button variant={"secondary"}>{t("explore_services")}</Button>
+        </Link>
       </div>
     </div>
   );

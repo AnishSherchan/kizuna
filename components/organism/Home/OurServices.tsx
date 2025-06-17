@@ -14,15 +14,16 @@ const OurServices = () => {
       headingSpan={t("description")}
     >
       <div className="flex flex-row gap-[60px] flex-wrap justify-center ">
-        {services.map((service,i)=>(
+        {services.map((service, i) => (
           <li key={i} className="list-none">
-            <ServiceCard title={t(service.service)} desc={t(service.shortDescription)} image={service.image}/>
+            <ServiceCard
+              title={t(service?.service)}
+              desc={t(service?.shortDescription)}
+              image={service?.image}
+              path={service?.path}
+            />
           </li>
         ))}
-
-        {/* <ServiceCard />
-        <ServiceCard />
-        <ServiceCard /> */}
       </div>
     </ContentWrapper>
   );
