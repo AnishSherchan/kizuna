@@ -41,7 +41,7 @@ const Text: React.FC<Textprop> = ({
     variant === "subheading" && "text-[16px] ",
     variant === "card_heading" && "text-[20px]",
     variant === "card_text" && "text-[14px]",
-    variant === "body" && "text-[20px] font-medium",
+    variant === "body" && "text-[19px] font-normal",
     // variant === "span" && "sm:text-label font-light text-[12px]",
     variant === "nav" &&
       "text-[16px]  cursor-pointer crease-in-out hover:opacity-80",

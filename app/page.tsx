@@ -7,7 +7,7 @@ export default function HomePage() {
   return (
     <div className="relative h-full">
       <div className=" h-[38rem] bg-[url('/assets/images/BackgroundImage.png')] bg-cover bg-center">
-        <MaxWidthWrapper className="h-full">
+        <MaxWidthWrapper className="h-full" isPageContent>
           <HeroSection />
         </MaxWidthWrapper>
       </div>
