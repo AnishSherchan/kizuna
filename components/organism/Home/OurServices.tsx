@@ -1,7 +1,9 @@
 import React from "react";
 import { useTranslations } from "next-intl";
+import { services } from "@/app/constants/config";
 
 import ContentWrapper from "@/components/Layout/ContentWrapper";
+import ServiceCard from "@/components/molecule/Cards/ServiceCard";
 
 const OurServices = () => {
   const t = useTranslations("ServicesPage");
@@ -11,7 +13,17 @@ const OurServices = () => {
       subHeading={t("spanTitle")}
       headingSpan={t("description")}
     >
-      Testing
+      <div className="flex flex-row gap-[60px] flex-wrap justify-center ">
+        {services.map((service,i)=>(
+          <li key={i} className="list-none">
+            <ServiceCard title={t(service.service)} desc={t(service.shortDescription)} image={service.image}/>
+          </li>
+        ))}
+
+        {/* <ServiceCard />
+        <ServiceCard />
+        <ServiceCard /> */}
+      </div>
     </ContentWrapper>
   );
 };
