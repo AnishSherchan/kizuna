@@ -32,7 +32,7 @@ const Navbar = () => {
       }`}
     >
       <MaxWidthWrapper className=" px-[30px] md:px-[60px]">
-        <div className=" overflow-hidden flex items-center justify-between  py-[5px]">
+        <div className=" overflow-hidden flex items-center justify-between px-[5px]  py-[5px]">
           <Link href={"/"}>
             <Image
               src={Logo}

@@ -17,7 +17,8 @@
     "socials": "Socials"
   },
   "ServicesPage": {
-    "title": "Our Services",
+    "title": "Our",
+    "spanTitle": "Services",
     "description": "Tailored solution for your success, Elevate your experience with Our Exceptional Services Today.",
     "service1_title": "Employment Support Services",
     "service1_description": "We help you find jobs which are suitable for you based on your skills and qualification with best companies.",

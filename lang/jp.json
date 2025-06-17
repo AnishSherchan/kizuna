@@ -18,6 +18,7 @@
   },
   "ServicesPage": {
     "title": "サービス紹介",
+    "spanTitle": "",
     "description": "日本で活躍したいネパールの方を、最初から  最後まで徹底サポート",
     "service1_title": "雇用支援",
     "service1_description": "日本で、あなたのスキルを必要とする分野で適切な仕事を見つけられるよう支援します。",

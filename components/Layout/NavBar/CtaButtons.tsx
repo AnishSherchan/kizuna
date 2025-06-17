@@ -53,7 +53,7 @@ const CtaButtons = () => {
       </Button>
 
       <DropdownMenu>
-        <DropdownMenuTrigger className=" bg-white p-2 rounded-md shadow-sm hover:bg-gray-100 transition-colors">
+        <DropdownMenuTrigger className=" bg-white outline-0 p-2 rounded-md shadow-sm hover:bg-gray-100 transition-colors">
           <MdOutlineTranslate className=" text-[20px] text-[#475569]" />
         </DropdownMenuTrigger>
         <DropdownMenuContent>
