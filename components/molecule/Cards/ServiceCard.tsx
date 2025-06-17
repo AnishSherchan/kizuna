@@ -3,6 +3,7 @@ import React from "react";
 import Text from "@/components/atom/Text";
 
 import { FaArrowRight } from "react-icons/fa";
+import {useTranslations} from "next-intl";
 
 const ServiceCard = ({
   title,
@@ -13,6 +14,7 @@ const ServiceCard = ({
   desc: string;
   image: StaticImageData;
 }) => {
+  const t= useTranslations("Commons")
   return (
     <div className="flex flex-col border border-card-border p-[10px] rounded-[15px] gap-[20px] w-[330px] h-[370px] hover:shadow-xl transition-all ease-in-out duration-500">
       <div>
@@ -39,8 +41,8 @@ const ServiceCard = ({
         </div>
 
           <span className="text-primary flex flex-row gap-[5px] justify-end items-center">
-            <Text variant="card_text">View More</Text>
-            <FaArrowRight size={13} />
+            <Text variant="card_text">{t("view_more")}</Text>
+            <FaArrowRight size={12} />
           </span>
 
       </div>
