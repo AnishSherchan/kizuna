@@ -11,6 +11,19 @@
     "services": "Services",
     "about": "About",
     "contact": "Contact",
-    "getStarted": "Get Started"
+    "getStarted": "Get Started",
+    "company_moto": "Connecting Nepali talents to Japan Work, Visa and more.",
+    "navigation": "Navigation",
+    "socials": "Socials"
+  },
+  "ServicesPage": {
+    "title": "Our Services",
+    "description": "Tailored solution for your success, Elevate your experience with Our Exceptional Services Today.",
+    "service1_title": "Employment Support Services",
+    "service1_description": "We help you find jobs which are suitable for you based on your skills and qualification with best companies.",
+    "service2_title": "Car Life Support",
+    "service2_description": "We provide comprehensive customer support services, from vehicle purchases to maintenance.",
+    "service3_title": "Legal solutions",
+    "service3_description": "We help you with legal works here in Japan based on your cases and even for immigration works."
   }
 }
