@@ -11,7 +11,7 @@ export default function HomePage() {
           <HeroSection />
         </MaxWidthWrapper>
       </div>
-      <MaxWidthWrapper className=" h-full" isPageContent>
+      <MaxWidthWrapper className="h-full" isPageContent>
         <OurServices />
         <About />
       </MaxWidthWrapper>
