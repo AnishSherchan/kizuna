@@ -40,12 +40,11 @@ const ServiceCard = ({
           </Text>
         </div>
 
-        <Link href={"/"}>
           <span className="text-primary flex flex-row gap-[5px] justify-end items-center">
             <Text variant="card_text">View More</Text>
             <FaArrowRight size={13} />
           </span>
-        </Link>
+
       </div>
     </div>
   );
