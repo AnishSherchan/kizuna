@@ -1,7 +1,9 @@
 {
   "HomePage": {
-    "title": "English Translation Example",
-    "description": "english translation example"   
+    "hero_title": "Connecting Nepali Talent to Japan Work, Visa, and More",
+    "hero_description": "Connecting Nepali talent with life-changing opportunities",
+    "find_jobs": "Find Jobs!",
+    "explore_services": "Explore Our Services"
   },
   "nav": {
     "home": "Home",

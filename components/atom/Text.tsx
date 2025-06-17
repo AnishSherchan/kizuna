@@ -36,7 +36,7 @@ const Text: React.FC<Textprop> = ({
       : "span";
 
   const baseStyle = clsx(
-    variant === "title" && " text-[40px] font-medium",
+    variant === "title" && " text-[32px]  md:text-[40px] font-medium",
     variant === "heading" && "text-[32px] ",
     variant === "subheading" && "text-[16px] ",
     variant === "card_heading" && "text-[20px]",

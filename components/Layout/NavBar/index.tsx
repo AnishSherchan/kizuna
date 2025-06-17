@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import Logo from "@/public/assets/logo/Logo.png"; // Adjust the path as necessary
-import MaxWidthWrapper from "../../MaxWithWrapper";
+import MaxWidthWrapper from "../MaxWithWrapper";
 import NavLink from "./NavLink";
 import Link from "next/link";
 import CtaButtons from "./CtaButtons";
@@ -11,7 +11,6 @@ const TOP_OFFSET = 150;
 const Navbar = () => {
   const [showBackground, setShowBackground] = useState(false);
 
-  console.log(showBackground);
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY >= TOP_OFFSET) {
@@ -28,7 +27,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`sticky top-0 z-50 transition-colors duration-300 ${
+      className={`fixed w-full top-0 z-50 transition-colors duration-300 ${
         showBackground ? "bg-white shadow-md" : "bg-transparent"
       }`}
     >

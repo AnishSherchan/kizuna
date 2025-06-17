@@ -29,7 +29,6 @@ const CtaButtons = () => {
 
   const [isPending, startTransition] = useTransition();
   const [isNavOpen, setIsNavOpen] = useState(false);
-  console.log(isNavOpen);
   const toggleNav = () => {
     setIsNavOpen((prev) => !prev);
     if (isNavOpen) {

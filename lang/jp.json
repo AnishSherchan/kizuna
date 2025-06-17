@@ -1,7 +1,9 @@
 {
   "HomePage": {
-    "title": "Japanese Translation Example",
-    "description": "これは日本語の翻訳例です。"   
+    "hero_title": "トータルサポートで日本企業とネパールを繋ぐ",
+    "hero_description": "ネパールの才能を日本社会の活躍の場へ",
+    "find_jobs": "仕事を探す",
+    "explore_services": "その他サービス"
   },
   "nav": {
     "home": "ホーム",
