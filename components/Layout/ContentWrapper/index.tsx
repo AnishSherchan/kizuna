@@ -16,14 +16,14 @@ const ContentWrapper = ({
 }) => {
   return (
     <div
-      className={`py-[40px] flex flex-col gap-[40px] justify-center items-center ${className}`}
+      className={`py-[40px] flex flex-col gap-[50px] justify-center items-center ${className}`}
     >
       <div className={"flex flex-col gap-[5px] text-center max-w-[510px] "}>
         <Text variant={"heading"}>
           {heading}
           <span className={"text-primary font-medium"}> {subHeading}</span>
         </Text>
-        <Text variant={"span"} className={"text-muted-foreground"}>
+        <Text variant={"subheading"} className={"text-muted-foreground"}>
           {headingSpan}
         </Text>
       </div>
