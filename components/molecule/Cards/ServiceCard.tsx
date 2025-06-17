@@ -1,10 +1,8 @@
 import Image, { StaticImageData } from "next/image";
 import React from "react";
-import service1 from "@/public/assets/images/service1.png";
 import Text from "@/components/atom/Text";
 
 import { FaArrowRight } from "react-icons/fa";
-import Link from "next/link";
 
 const ServiceCard = ({
   title,
