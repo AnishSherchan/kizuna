@@ -11,6 +11,19 @@
     "services": "サービス",
     "about": "会社概要",
     "contact": "お問い合わせ",
-    "getStarted": "まずはここから"
+    "getStarted": "まずはここから",
+    "company_moto": "トータルサポートで日本企業とネパールを繋ぐ",
+    "navigation": "ご案内",
+    "socials": "SNS"
+  },
+  "ServicesPage": {
+    "title": "サービス紹介",
+    "description": "日本で活躍したいネパールの方を、最初から  最後まで徹底サポート",
+    "service1_title": "雇用支援",
+    "service1_description": "日本で、あなたのスキルを必要とする分野で適切な仕事を見つけられるよう支援します。",
+    "service2_title": "カーライフサポート",
+    "service2_description": "自動車の購入から維持管理まで、総合的にあなたをサポートするサービスを提供します。",
+    "service3_title": "法的手続き支援",
+    "service3_description": "ビザ、労働者の権利、契約、日本での法的保護の維持に関するガイダンスを提供します。"
   }
 }
