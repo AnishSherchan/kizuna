@@ -87,7 +87,7 @@ const CtaButtons = () => {
             <Link
               key={item.label}
               href={item.href}
-              onClick={() => setIsNavOpen(false)}
+              onClick={() => toggleNav()}
               className={`${
                 pathname === item?.href ||
                 (item?.href !== "/" && pathname.startsWith(item?.href))
