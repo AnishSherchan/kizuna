@@ -2,6 +2,7 @@ import MaxWidthWrapper from "@/components/Layout/MaxWithWrapper";
 import HeroSection from "@/components/organism/Home/HeroSection";
 import OurServices from "@/components/organism/Home/OurServices";
 import About from "@/components/organism/Home/About";
+import Steps from "@/components/organism/Home/Steps";
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <MaxWidthWrapper className="h-full" isPageContent>
         <OurServices />
         <About />
+        <Steps />
       </MaxWidthWrapper>
     </div>
   );
