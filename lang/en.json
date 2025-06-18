@@ -79,5 +79,12 @@
     "answer5": "Yes! But some roles may require only basic Japanese. We help guide you based on your language level and can suggest training if needed.",
     "question6": "Do I need to pay to apply for a job through Kizuna?",
     "answer6": "No. There are no hidden charges for applying. We offer transparent and ethical recruitment services but we may charge training fees in some cases."
+  },
+  "404Page": {
+    "heading": "Oops",
+    "secondary_text1": "Nothing",
+    "secondary_text2": "here...",
+    "content": "We couldn't find the page you were looking for. Please check the URL or click the button below to return to the homepage.",
+    "button_text": "Go Back to Homepage"
   }
 }
