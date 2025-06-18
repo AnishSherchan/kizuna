@@ -86,5 +86,30 @@
     "secondary_text2": "ここ...",
     "content": "お探しのページは見つかりませんでした。URLを確認するか、下のボタンをクリックしてホームページに戻ってください。",
     "button_text": "ホームページに戻る"
+  },
+  "CarLifeSupportPage": {
+    "bannerTitle": "サービスについて",
+    "title": "カーライフサポートサービス",
+    "spanTitle": "",
+    "description": "あなたのカーライフ、もっと快適にしませんか？当社のサービスが、そのお手伝いをします。"
+  },
+  "legalSupportPage": {
+    "bannerTitle": "サービスについて",
+    "title": "法的手続き支援サービス",
+    "spanTitle": "",
+    "description": "複雑な手続き、まるごとお任せ。"
+  },
+  "EmploymentSupportPage": {
+    "bannerTitle": "サービスについて",
+    "title": "雇用支援サービス",
+    "spanTitle": "",
+    "description": "あなたの日本での活躍に期待します"
+  },
+  "ContactPage": {
+    "heading": "お問い合わせ",
+    "title": "お問い合わせはこちらのフォームをご利用ください。",
+    "spanTitle": "",
+    "description": "ご返信に3営業日程お時間を頂く場合がございますのでご了承下さるようお願い致します。"
+
   }
 }
