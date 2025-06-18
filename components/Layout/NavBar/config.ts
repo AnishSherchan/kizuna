@@ -5,7 +5,7 @@ export const navItems = [
   },
   {
     label: "jobs",
-    href: "/job",
+    href: "/services/employment-support",
   },
   {
     label: "services",
