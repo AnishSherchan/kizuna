@@ -62,5 +62,22 @@
   },
   "Commons": {
     "view_more": "View More"
+  },
+  "FAQPage": {
+    "heading": "Frequently Asked",
+    "headingSpan": "Kidsna’s FAQ",
+    "subHeading": "Questions",
+    "question1": "What does Kizuna do?",
+    "answer1": "We help skilled Nepali professionals connect with employers in Japan, offering job placement, visa support, and lifestyle consultation.",
+    "question2": "How long does the recruitment process take?",
+    "answer2": "This varies depending on your profile and the job, but we ensure regular communication and keep you updated every step of the way",
+    "question3": "Can I get support after arriving in Japan?",
+    "answer3": "Absolutely! We also assist with post-arrival total support.",
+    "question4": "Will Kizuna help with my visa process?",
+    "answer4": "Yes! We provide full guidance and support during your visa application, including documentation .",
+    "question5": "Do I need to know Japanese to work in Japan?",
+    "answer5": "Yes! But some roles may require only basic Japanese. We help guide you based on your language level and can suggest training if needed.",
+    "question6": "Do I need to pay to apply for a job through Kizuna?",
+    "answer6": "No. There are no hidden charges for applying. We offer transparent and ethical recruitment services but we may charge training fees in some cases."
   }
 }
