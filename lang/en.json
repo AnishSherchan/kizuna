@@ -30,7 +30,7 @@
     "service1_description": "We help you find jobs which are suitable for you based on your skills and qualification with best companies.",
     "service2_title": "Car Life Support",
     "service2_description": "We provide comprehensive customer support services, from vehicle purchases to maintenance.",
-    "service3_title": "Legal solutions",
+    "service3_title": "Legal Solution",
     "service3_description": "We help you with legal works here in Japan based on your cases and even for immigration works."
   },
   "AboutPage": {
@@ -79,5 +79,29 @@
     "answer5": "Yes! But some roles may require only basic Japanese. We help guide you based on your language level and can suggest training if needed.",
     "question6": "Do I need to pay to apply for a job through Kizuna?",
     "answer6": "No. There are no hidden charges for applying. We offer transparent and ethical recruitment services but we may charge training fees in some cases."
+  },
+  "CarLifeSupportPage": {
+    "bannerTitle": "Car Life Support",
+    "title": "Car Life Support",
+    "spanTitle": "Service",
+    "description": "Elevate your experience with Our Exceptional Car Life Services Today"
+  },
+  "legalSupportPage": {
+    "bannerTitle": "Legal Solution",
+    "title": "Legal Solution",
+    "spanTitle": "Service",
+    "description": "Elevate your experience with Our Exceptional Legal Support Services Today"
+  },
+  "EmploymentSupportPage": {
+    "bannerTitle": "Employment Support",
+    "title": "Employment Support",
+    "spanTitle": "Service",
+    "description": "Tailored solution for your success, Elevate your experience with Our Exceptional Services Today."
+  },
+  "ContactPage": {
+    "heading": "Contact Us",
+    "title": "Contact our",
+    "spanTitle": "Team",
+    "description": "Tailored solution for your success, Elevate your experience with Our Exceptional Services Today"
   }
 }

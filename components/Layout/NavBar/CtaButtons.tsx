@@ -48,10 +48,6 @@ const CtaButtons = () => {
 
   return (
     <div className=" flex items-center gap-4">
-      <Button className=" hidden lg:block cursor-pointer">
-        {t("getStarted")}
-      </Button>
-
       <DropdownMenu>
         <DropdownMenuTrigger className=" bg-white outline-0 p-2 rounded-md shadow-sm hover:bg-gray-100 transition-colors">
           <MdOutlineTranslate className=" text-[20px] text-[#475569]" />
@@ -107,7 +103,6 @@ const CtaButtons = () => {
               </Text>
             </Link>
           ))}
-          <Button className=" cursor-pointer">{t("getStarted")}</Button>
         </nav>
       </div>
     </div>
