@@ -1,31 +1,22 @@
-"use client";
-import Text from "@/components/atom/Text";
 import Image, { StaticImageData } from "next/image";
-import { useTranslations } from "next-intl";
-import { useRouter } from "next/navigation";
+import React from "react";
+import Text from "@/components/atom/Text";
 
-import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa";
+import {useTranslations} from "next-intl";
 
 const ServiceCard = ({
   title,
   desc,
   image,
-  path,
 }: {
   title: string;
   desc: string;
   image: StaticImageData;
-  path: string;
 }) => {
-  const t = useTranslations("common");
-  const router = useRouter();
-
+  const t= useTranslations("Commons")
   return (
-    <div
-      onClick={() => router.push(`/services/${path}`)}
-      className="flex cursor-pointer flex-col border border-card-border p-[10px] rounded-[15px] gap-[20px] w-[330px] h-[370px] hover:shadow-xl transition-all ease-in-out duration-500"
-    >
+    <div className="flex flex-col border border-card-border p-[10px] rounded-[15px] gap-[20px] w-[330px] h-[370px] hover:shadow-xl transition-all ease-in-out duration-500">
       <div>
         <Image
           src={image}
@@ -46,14 +37,11 @@ const ServiceCard = ({
           </Text>
         </div>
 
-        <Link href={"/"}>
           <span className="text-primary flex flex-row gap-[5px] justify-end items-center">
-            <Text variant="card_text" className=" font-medium">
-              {t("view_more")}
-            </Text>
-            <FaArrowRight size={13} />
+            <Text variant="card_text">{t("view_more")}</Text>
+            <FaArrowRight size={12} />
           </span>
-        </Link>
+
       </div>
     </div>
   );

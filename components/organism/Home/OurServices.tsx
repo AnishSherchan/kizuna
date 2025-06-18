@@ -4,6 +4,7 @@ import { services } from "@/app/constants/config";
 
 import ContentWrapper from "@/components/Layout/ContentWrapper";
 import ServiceCard from "@/components/molecule/Cards/ServiceCard";
+import Link from "next/link";
 
 const OurServices = () => {
   const t = useTranslations("ServicesPage");
@@ -16,12 +17,13 @@ const OurServices = () => {
       <div className="flex flex-row gap-[60px] flex-wrap justify-center ">
         {services.map((service, i) => (
           <li key={i} className="list-none">
-            <ServiceCard
-              title={t(service?.service)}
-              desc={t(service?.shortDescription)}
-              image={service?.image}
-              path={service?.path}
-            />
+            <Link href={`/services/${service.path}`}>
+              <ServiceCard
+                title={t(service.service)}
+                desc={t(service.shortDescription)}
+                image={service.image}
+              />
+            </Link>
           </li>
         ))}
       </div>
