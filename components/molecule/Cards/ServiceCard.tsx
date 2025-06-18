@@ -26,10 +26,7 @@ const ServiceCard = ({
       </div>
       <div className="flex flex-col gap-[5px] justify-between h-full">
         <div className="flex flex-col gap-[5px]">
-          <Text
-            variant="card_heading"
-            className=""
-          >
+          <Text variant="card_heading" className="">
             {title}
           </Text>
           <Text

@@ -1,6 +1,7 @@
 {
   "common": {
-    "learn_more": "Learn More"
+    "learn_more": "Learn More",
+    "view_more": "View More"
   },
 
   "HomePage": {
@@ -34,6 +35,24 @@
   "AboutPage": {
     "title": "About",
     "spanTitle": "Kizuna",
+
+    "stepsTitle": "3 Steps of ",
+    "stepsDescription": "3 Steps of Kidsna Support Cycle",
+    "steps": {
+      "step1": {
+        "title": "Reach out",
+        "description": "Contact us via phone, email or our website"
+      },
+      "step2": {
+        "title": "Consultation",
+        "description": "Discuss our goals and opportunity with us."
+      },
+      "step3": {
+        "title": "Support",
+        "description": "Receive assistance tailored according to your needs. "
+      }
+    },
+
     "description": "Move Forward, Move With Kizuna",
     "about_kizuna": {
       "paragraph1": "Kizuna Co., Ltd. is dedicated to providing high-quality employment opportunities to Nepalese individuals living in Japan, enabling them to fully utilize their skills and potential. At the same time, we strive to support Japanese companies in addressing labor shortages by serving as a bridge that connects them with talented human resources",

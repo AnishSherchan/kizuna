@@ -16,6 +16,7 @@ const OurServices = () => {
     >
       <div className="flex flex-row gap-[60px] flex-wrap justify-center ">
         {services.map((service, i) => (
+        {services.map((service, i) => (
           <li key={i} className="list-none">
             <Link href={`/services/${service.path}`}>
               <ServiceCard
