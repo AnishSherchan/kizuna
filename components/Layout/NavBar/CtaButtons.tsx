@@ -1,19 +1,15 @@
 "use client";
-import React, { useTransition, useState } from "react";
+import React, { useTransition, useState, useEffect } from "react";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { setUserLocale } from "@/services/locale";
-// import Text from "@/components/atom/Text";
 import { IoCloseOutline } from "react-icons/io5";
 import { RxHamburgerMenu } from "react-icons/rx";
-
 import { navItems } from "./config";
-
 import { Button } from "@/components/ui/button";
 import Text from "@/components/atom/Text";
 import { usePathname } from "next/navigation";
 import { MdOutlineTranslate } from "react-icons/md";
-
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -29,14 +25,17 @@ const CtaButtons = () => {
 
   const [isPending, startTransition] = useTransition();
   const [isNavOpen, setIsNavOpen] = useState(false);
+
   const toggleNav = () => {
     setIsNavOpen((prev) => !prev);
-    if (isNavOpen) {
-      document.body.style.overflow = "auto"; // Enable scrolling
-    } else {
-      document.body.style.overflow = "hidden"; // Disable scrolling
-    }
   };
+
+  useEffect(() => {
+    document.body.style.overflow = isNavOpen ? "hidden" : "auto";
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [isNavOpen]);
 
   const onChange = (value: string) => {
     if (value === "en" || value === "jp") {
@@ -47,10 +46,10 @@ const CtaButtons = () => {
   };
 
   return (
-    <div className=" flex items-center gap-4">
+    <div className="flex items-center gap-4">
       <DropdownMenu>
-        <DropdownMenuTrigger className=" bg-white outline-0 p-2 rounded-md shadow-sm hover:bg-gray-100 transition-colors">
-          <MdOutlineTranslate className=" text-[20px] text-[#475569]" />
+        <DropdownMenuTrigger className="bg-white outline-0 p-2 rounded-md shadow-sm hover:bg-gray-100 transition-colors">
+          <MdOutlineTranslate className="text-[20px] text-[#475569]" />
         </DropdownMenuTrigger>
         <DropdownMenuContent>
           <DropdownMenuLabel>Choose Language</DropdownMenuLabel>
@@ -67,12 +66,12 @@ const CtaButtons = () => {
       <Button
         variant={"outline"}
         onClick={toggleNav}
-        className=" lg:hidden cursor-pointer"
+        className="lg:hidden cursor-pointer"
       >
         {isNavOpen ? (
-          <IoCloseOutline className=" text-[30px] text-[#000000]" />
+          <IoCloseOutline className="text-[30px] text-[#000000]" />
         ) : (
-          <RxHamburgerMenu className=" text-[30px] text-[#000000]" />
+          <RxHamburgerMenu className="text-[30px] text-[#000000]" />
         )}
       </Button>
 
@@ -87,7 +86,7 @@ const CtaButtons = () => {
             <Link
               key={item.label}
               href={item.href}
-              onClick={() => setIsNavOpen(false)}
+              onClick={toggleNav}
               className={`${
                 pathname === item?.href ||
                 (item?.href !== "/" && pathname.startsWith(item?.href))
@@ -97,7 +96,7 @@ const CtaButtons = () => {
             >
               <Text
                 variant="nav"
-                className="   transition-all duration-300 ease-in-out "
+                className="transition-all duration-300 ease-in-out"
               >
                 {t(item.label)}
               </Text>
