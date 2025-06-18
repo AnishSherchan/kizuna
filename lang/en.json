@@ -22,6 +22,7 @@
     "socials": "Socials"
   },
   "ServicesPage": {
+    "bannerTitle": "Services",
     "title": "Our",
     "spanTitle": "Services",
     "description": "Tailored solution for your success, Elevate your experience with Our Exceptional Services Today.",
@@ -29,7 +30,7 @@
     "service1_description": "We help you find jobs which are suitable for you based on your skills and qualification with best companies.",
     "service2_title": "Car Life Support",
     "service2_description": "We provide comprehensive customer support services, from vehicle purchases to maintenance.",
-    "service3_title": "Legal solutions",
+    "service3_title": "Legal Solution",
     "service3_description": "We help you with legal works here in Japan based on your cases and even for immigration works."
   },
   "AboutPage": {
@@ -61,5 +62,54 @@
   },
   "Commons": {
     "view_more": "View More"
+  },
+  "FAQPage": {
+    "heading": "Frequently Asked",
+    "headingSpan": "Kidsna’s FAQ",
+    "subHeading": "Questions",
+    "question1": "What does Kizuna do?",
+    "answer1": "We help skilled Nepali professionals connect with employers in Japan, offering job placement, visa support, and lifestyle consultation.",
+    "question2": "How long does the recruitment process take?",
+    "answer2": "This varies depending on your profile and the job, but we ensure regular communication and keep you updated every step of the way",
+    "question3": "Can I get support after arriving in Japan?",
+    "answer3": "Absolutely! We also assist with post-arrival total support.",
+    "question4": "Will Kizuna help with my visa process?",
+    "answer4": "Yes! We provide full guidance and support during your visa application, including documentation .",
+    "question5": "Do I need to know Japanese to work in Japan?",
+    "answer5": "Yes! But some roles may require only basic Japanese. We help guide you based on your language level and can suggest training if needed.",
+    "question6": "Do I need to pay to apply for a job through Kizuna?",
+    "answer6": "No. There are no hidden charges for applying. We offer transparent and ethical recruitment services but we may charge training fees in some cases."
+  },
+
+  "404Page": {
+    "heading": "Oops",
+    "secondary_text1": "Nothing",
+    "secondary_text2": "here...",
+    "content": "We couldn't find the page you were looking for. Please check the URL or click the button below to return to the homepage.",
+    "button_text": "Go Back to Homepage"
+},
+  "CarLifeSupportPage": {
+    "bannerTitle": "Car Life Support",
+    "title": "Car Life Support",
+    "spanTitle": "Service",
+    "description": "Elevate your experience with Our Exceptional Car Life Services Today"
+  },
+  "legalSupportPage": {
+    "bannerTitle": "Legal Solution",
+    "title": "Legal Solution",
+    "spanTitle": "Service",
+    "description": "Elevate your experience with Our Exceptional Legal Support Services Today"
+  },
+  "EmploymentSupportPage": {
+    "bannerTitle": "Employment Support",
+    "title": "Employment Support",
+    "spanTitle": "Service",
+    "description": "Tailored solution for your success, Elevate your experience with Our Exceptional Services Today."
+  },
+  "ContactPage": {
+    "heading": "Contact Us",
+    "title": "Contact our",
+    "spanTitle": "Team",
+    "description": "Tailored solution for your success, Elevate your experience with Our Exceptional Services Today"
   }
 }
