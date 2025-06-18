@@ -38,6 +38,7 @@ const Navbar = () => {
               src={Logo}
               className="  h-[80px] w-auto object-contain"
               alt="Kizuna"
+              priority
             />
           </Link>
           {/* NavLinks */}

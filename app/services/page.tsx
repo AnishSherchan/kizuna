@@ -12,7 +12,7 @@ const Page = () => {
         title={t("bannerTitle")}
         bgUrl="/assets/images/BackGround/Fuji.png"
       />
-      <MaxWidthWrapper>
+      <MaxWidthWrapper isPageContent>
         <OurServices />
       </MaxWidthWrapper>
     </div>

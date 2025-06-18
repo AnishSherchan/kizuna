@@ -27,11 +27,13 @@ const About = () => {
         {/* Text */}
         <div className=" flex flex-col gap-[50px] max-w-[645px]">
           <div className=" flex flex-col gap-[15px]">
-            <Text variant="body" className=" text-justify">
+            <Text variant="body" className=" text-justify  font-normal">
               {t("about_kizuna.paragraph1")}
             </Text>
 
-            <Text variant="body">{t("about_kizuna.paragraph2")}</Text>
+            <Text variant="body" className=" text-justify  font-normal">
+              {t("about_kizuna.paragraph2")}
+            </Text>
           </div>
           <div>
             <Link href={"/about"}>
