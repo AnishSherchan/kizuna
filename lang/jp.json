@@ -1,7 +1,12 @@
 {
   "common": {
     "learn_more": "つづき",
-    "view_more": "もっと見る"
+    "view_more": "もっと見る",
+    "phone": "電話",
+    "email": "メール",
+    "address": "住所",
+    "companyAddress": "株式会社絆〒470-0352愛知県豊田市篠原町郷屋敷90",
+    "contactInformation": "問い合わせ先"
   },
 
   "HomePage": {
@@ -123,11 +128,31 @@
     "heading": "お問い合わせ",
     "title": "お問い合わせはこちらのフォームをご利用ください。",
     "spanTitle": "",
+
     "description": "ご返信に3営業日程お時間を頂く場合がございますのでご了承下さるようお願い致します。"
   },
   "Maps": {
     "heading": "Google Mapsで見る ",
     "subHeading": "",
     "headingSpan": "絆への道案内"
+    "description": "ご返信に3営業日程お時間を頂く場合がございますのでご了承下さるようお願い致します。",
+    "contactFormTitle": "何でもお気軽にお声がけください。"
+  },
+  "form": {
+    "name": "氏名",
+    "namePlaceholder": "例）絆　一郎",
+    "phone": "電話番号",
+    "phonePlaceholder": "+81 111-11-1111",
+    "email": "メールアドレス",
+    "emailPlaceholder": "Kizuna＠docomo.ne.jp",
+    "service": "サービス選択",
+    "servicePlaceholder": "雇用支援",
+    "address": "住所",
+    "addressPlaceholder": "Capitol, WA",
+    "knowAboutUs": "どのようにして当社を知りましたか?",
+    "knowAboutUsPlaceholder": "Instagram, Facebook, Tiktok, Others",
+    "message": "お問い合わせ内容",
+    "messagePlaceholder": "こちらから折り返しご連絡させていただきますので、メッセージまたはご質問をこちらにご記入ください",
+    "send": "送信"
   }
 }
