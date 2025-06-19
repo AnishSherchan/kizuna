@@ -1,8 +1,10 @@
 import React from "react";
 import PageBanner from "@/components/molecule/PageBanner";
-import { useTranslations } from "next-intl";
+import {useTranslations} from "next-intl";
 import MaxWidthWrapper from "@/components/Layout/MaxWithWrapper";
 import ContentWrapper from "@/components/Layout/ContentWrapper";
+
+import Maps from "@/components/organism/Maps";
 import BannerCardContactUs from "@/components/molecule/Cards/BannerCardContact";
 import ContactFormCard from "@/components/molecule/Cards/ContactFormCard";
 
@@ -25,6 +27,7 @@ const Contact = () => {
             <ContactFormCard title={t("contactFormTitle")} />
           </div>
         </ContentWrapper>
+        <Maps/>
       </MaxWidthWrapper>
     </div>
   );
