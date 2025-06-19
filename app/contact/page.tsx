@@ -1,8 +1,12 @@
 import React from "react";
 import PageBanner from "@/components/molecule/PageBanner";
-import { useTranslations } from "next-intl";
+import {useTranslations} from "next-intl";
 import MaxWidthWrapper from "@/components/Layout/MaxWithWrapper";
 import ContentWrapper from "@/components/Layout/ContentWrapper";
+
+import Maps from "@/components/organism/Maps";
+import BannerCardContactUs from "@/components/molecule/Cards/BannerCardContact";
+import ContactFormCard from "@/components/molecule/Cards/ContactFormCard";
 
 const Contact = () => {
   const t = useTranslations("ContactPage");
@@ -18,8 +22,12 @@ const Contact = () => {
           subHeading={t("spanTitle")}
           headingSpan={t("description")}
         >
-          About Content Here
+          <div className="flex w-full lg:flex-row flex-col flex-auto gap-[40px] justify-center items-center">
+            <BannerCardContactUs />
+            <ContactFormCard title={t("contactFormTitle")} />
+          </div>
         </ContentWrapper>
+        <Maps/>
       </MaxWidthWrapper>
     </div>
   );

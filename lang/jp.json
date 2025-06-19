@@ -1,7 +1,12 @@
 {
   "common": {
     "learn_more": "つづき",
-    "view_more": "もっと見る"
+    "view_more": "もっと見る",
+    "phone": "電話",
+    "email": "メール",
+    "address": "住所",
+    "companyAddress": "株式会社絆〒470-0352愛知県豊田市篠原町郷屋敷90",
+    "contactInformation": "問い合わせ先"
   },
 
   "HomePage": {
@@ -57,7 +62,21 @@
     "description": "未来へ 絆と共に",
     "about_kizuna": {
       "paragraph1": "株式会社絆は、日本に暮らすネパールの方々がその能力を最大限に活かせるように適正な条件での仕事をご紹介することを使命としております。同時に、人手不足という課題を抱える日本の企業の皆様に対し、優秀な人材との架け橋となることで、その解決の一助となることを目指しております。",
-      "paragraph2": "当社は、ネパールの方々を日本にお迎えするだけでなく、彼らがこの地で安心して生活し、充実した日々を送り、そして心ゆくまで活躍できるよう、長期的な視点から手厚いサポートを提供し、共に発展していくコミュニティの構築に尽力しております。"
+      "paragraph2": "当社は、ネパールの方々を日本にお迎えするだけでなく、彼らがこの地で安心して生活し、充実した日々を送り、そして心ゆくまで活躍できるよう、長期的な視点から手厚いサポートを提供し、共に発展していくコミュニティの構築に尽力しております。",
+      "paragraph3": "私たちは、ネパールの方々が日本で自信と尊敬を感じながら活躍できる未来、そして日本の企業が 外国人材の努力と能力によってさらに発展する未来を描いています。人、文化、そして機会をつなぐ「絆」として、私たちは互いの成長を支え、長く続く信頼関係を築いてまいります。",
+      "mission_text1": "我々のビジョン",
+      "mission_text2": ""
+    },
+    "ticks": {
+      "employment_support": "雇用支援サービス",
+      "legal_procedure": "カーライフサポートサービス",
+      "car_life": "法的手続き支援サービス",
+      "hr_specialist": "ネパール人専門",
+      "full_support": "全面サポート",
+      "bridge_trust": "信頼の架け橋",
+      "hr_hassle": "迅速な対応力",
+      "coexist": "共存共栄",
+      "future_together": "未来を共に"
     }
   },
   "Commons": {
@@ -109,7 +128,31 @@
     "heading": "お問い合わせ",
     "title": "お問い合わせはこちらのフォームをご利用ください。",
     "spanTitle": "",
-    "description": "ご返信に3営業日程お時間を頂く場合がございますのでご了承下さるようお願い致します。"
 
+    "description": "ご返信に3営業日程お時間を頂く場合がございますのでご了承下さるようお願い致します。"
+  },
+  "Maps": {
+    "heading": "Google Mapsで見る ",
+    "subHeading": "",
+    "headingSpan": "絆への道案内",
+    "description": "ご返信に3営業日程お時間を頂く場合がございますのでご了承下さるようお願い致します。",
+    "contactFormTitle": "何でもお気軽にお声がけください。"
+  },
+  "form": {
+    "name": "氏名",
+    "namePlaceholder": "例）絆　一郎",
+    "phone": "電話番号",
+    "phonePlaceholder": "+81 111-11-1111",
+    "email": "メールアドレス",
+    "emailPlaceholder": "Kizuna＠docomo.ne.jp",
+    "service": "サービス選択",
+    "servicePlaceholder": "雇用支援",
+    "address": "住所",
+    "addressPlaceholder": "Capitol, WA",
+    "knowAboutUs": "どのようにして当社を知りましたか?",
+    "knowAboutUsPlaceholder": "Instagram, Facebook, Tiktok, Others",
+    "message": "お問い合わせ内容",
+    "messagePlaceholder": "こちらから折り返しご連絡させていただきますので、メッセージまたはご質問をこちらにご記入ください",
+    "send": "送信"
   }
 }
