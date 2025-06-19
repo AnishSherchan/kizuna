@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+import { Toaster } from "@/components/ui/sonner";
+
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale } from "next-intl/server";
 import Navbar from "@/components/Layout/NavBar";
@@ -35,6 +37,7 @@ export default async function RootLayout({
       >
         <NextIntlClientProvider>
           <Navbar />
+          <Toaster position="top-center" richColors />
           {children}
           <Footer />
         </NextIntlClientProvider>

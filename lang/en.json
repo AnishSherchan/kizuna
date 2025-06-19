@@ -1,7 +1,12 @@
 {
   "common": {
     "learn_more": "Learn More",
-    "view_more": "View More"
+    "view_more": "View More",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "companyAddress": "90 Goyashiki, Sasabara-cho, Toyota City, Aichi Prefecture",
+    "contactInformation": "Contact Information"
   },
 
   "HomePage": {
@@ -87,7 +92,7 @@
     "secondary_text2": "here...",
     "content": "We couldn't find the page you were looking for. Please check the URL or click the button below to return to the homepage.",
     "button_text": "Go Back to Homepage"
-},
+  },
   "CarLifeSupportPage": {
     "bannerTitle": "Car Life Support",
     "title": "Car Life Support",
@@ -110,6 +115,24 @@
     "heading": "Contact Us",
     "title": "Contact our",
     "spanTitle": "Team",
-    "description": "Tailored solution for your success, Elevate your experience with Our Exceptional Services Today"
+    "description": "Tailored solution for your success, Elevate your experience with Our Exceptional Services Today",
+    "contactFormTitle": "Please feel free to ask us anything."
+  },
+  "form": {
+    "name": "Name",
+    "namePlaceholder": "John Tammy",
+    "phone": "Phone Number",
+    "phonePlaceholder": "+81 111-11-1111",
+    "email": "Email",
+    "emailPlaceholder": "johndoe@mail.net",
+    "service": "Service",
+    "servicePlaceholder": "Choose any one Service",
+    "address": "Address",
+    "addressPlaceholder": "Capitol, WA",
+    "knowAboutUs": "How Did you hear about us?",
+    "knowAboutUsPlaceholder": "Instagram, Facebook, Tiktok, Others",
+    "message": "Message",
+    "messagePlaceholder": "Your message or query here so we can contact you back.",
+    "send": "Send"
   }
 }
