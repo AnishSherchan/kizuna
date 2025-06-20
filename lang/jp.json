@@ -136,7 +136,8 @@
     "bannerTitle": "サービスについて",
     "title": "雇用支援サービス",
     "spanTitle": "",
-    "description": "あなたの日本での活躍に期待します"
+    "description": "あなたの日本での活躍に期待します",
+    "jobApplicationForm": "雇用支援"
   },
   "ContactPage": {
     "contactFormTitle": "何でもお気軽にお声がけください。",
@@ -154,9 +155,24 @@
     "contactFormTitle": "何でもお気軽にお声がけください。"
   },
   "form": {
+    "jobFormTitle": "申し込み",
+    "jobFormSpan": "",
     "name": "氏名",
     "namePlaceholder": "例）絆　一郎",
     "phone": "電話番号",
+    "gender": "性別",
+    "male": "男性",
+    "female": "女性",
+    "skills": "資格・免許",
+    "skillsPlaceholder": "例）調理師、普通自動車第一種運転免許、基本情報技術者",
+    "workExperience": "実務経験",
+    "workExperiencePlaceholder": "できるだけ詳しく書いてアピールして下さい",
+    "educationLevel": "学歴",
+    "educationLevelPlaceholder": "中卒",
+    "JpLevel": "日本語レベル",
+    "JpLevelPlaceholder": "N5",
+    "enLangTest": "英語レベル",
+    "enLangTestPlaceholder": "英語レベル",
     "phonePlaceholder": "+81 111-11-1111",
     "email": "メールアドレス",
     "emailPlaceholder": "Kizuna＠docomo.ne.jp",
@@ -168,7 +184,8 @@
     "knowAboutUsPlaceholder": "Instagram, Facebook, Tiktok, Others",
     "message": "お問い合わせ内容",
     "messagePlaceholder": "こちらから折り返しご連絡させていただきますので、メッセージまたはご質問をこちらにご記入ください",
-    "send": "送信"
+    "send": "送信",
+    "submit": "提出"
   },
   "employmentSupport": {
     "para1": "絆では、ネパールの求職者や学生を、自動車及びその他製造業、サービス業など様々な分野の日本企業へ繋ぐことに特化しています。専任チームが採用プロセス全体を通して包括的なサポートを提供し、無理なく日本の職場で活躍できるようお手伝いします。",
@@ -191,5 +208,9 @@
     "para4": "当社は、単に法的な問題解決をお手伝いするだけでなく、皆様に寄り添い、共に歩む信頼できる\nパートナーでありたいと考えています。そして誰もが必要なサポートを受け、新しいチャンスをつか\nみ、そして人として尊重される、そんな地域社会を築くことを目指しています。",
     "btn1": "申し込み手続きへ",
     "btn2": "その他問い合わせへ"
+  },
+  "CvPreview": {
+    "preview": "プレビュー",
+    "downloadPdf": "PDF にダウンロード"
   }
 }
