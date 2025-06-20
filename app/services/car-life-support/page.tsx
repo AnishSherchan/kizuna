@@ -2,8 +2,8 @@ import React from "react";
 import PageBanner from "@/components/molecule/PageBanner";
 import { useTranslations } from "next-intl";
 import MaxWidthWrapper from "@/components/Layout/MaxWithWrapper";
-import ContentWrapper from "@/components/Layout/ContentWrapper";
 import Faq from "@/components/organism/Home/Faq";
+import CarLifeAbout from "@/components/organism/CarLifeSupport/CarLifeAbout";
 
 const CarLifeSupport = () => {
   const t = useTranslations("CarLifeSupportPage");
@@ -15,13 +15,7 @@ const CarLifeSupport = () => {
         className=" bg-left-top"
       />
       <MaxWidthWrapper isPageContent>
-        <ContentWrapper
-          heading={t("title")}
-          subHeading={t("spanTitle")}
-          headingSpan={t("description")}
-        >
-          Car Life
-        </ContentWrapper>
+        <CarLifeAbout />
         <Faq />
       </MaxWidthWrapper>
     </div>
