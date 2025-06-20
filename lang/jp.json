@@ -41,7 +41,7 @@
   "AboutPage": {
     "title": "絆について",
     "spanTitle": "",
-
+    "headingSpan": "未来へ 絆と共に",
     "stepsTitle": "絆の3ステップ",
     "stepsDescription": "当社のサービスは、お客様を3つのステップでサポートします。",
     "steps": {
@@ -125,6 +125,7 @@
     "description": "あなたの日本での活躍に期待します"
   },
   "ContactPage": {
+    "contactFormTitle": "何でもお気軽にお声がけください。",
     "heading": "お問い合わせ",
     "title": "お問い合わせはこちらのフォームをご利用ください。",
     "spanTitle": "",
