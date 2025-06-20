@@ -2,6 +2,7 @@
 import React, { useRef } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
+import { toast } from "sonner";
 
 import PageBanner from "@/components/molecule/PageBanner";
 import MaxWidthWrapper from "@/components/Layout/MaxWithWrapper";
@@ -46,6 +47,9 @@ const JobForm = () => {
     }),
     onSubmit: (values, { resetForm }) => {
       console.log(values);
+      toast.success("Job Application Submission Completed", {
+        description: "We will contact you with in 3 business days!",
+      });
       resetForm();
     },
   });
