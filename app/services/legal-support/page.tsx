@@ -11,7 +11,7 @@ const LegalSupport = () => {
     <div>
       <PageBanner
         title={t("bannerTitle")}
-        bgUrl="/assets/images/BackGround/Trade.png"
+        bgUrl="/assets/images/BackGround/Trade.webp"
         className=" bg-no-repeat bg-bottom bg-contain"
       />
       <MaxWidthWrapper isPageContent>

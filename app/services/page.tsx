@@ -10,7 +10,7 @@ const Page = () => {
     <div>
       <PageBanner
         title={t("bannerTitle")}
-        bgUrl="/assets/images/BackGround/Fuji.png"
+        bgUrl="/assets/images/BackGround/Fuji.webp"
       />
       <MaxWidthWrapper isPageContent>
         <OurServices />

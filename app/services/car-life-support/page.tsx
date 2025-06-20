@@ -11,7 +11,7 @@ const CarLifeSupport = () => {
     <div>
       <PageBanner
         title={t("bannerTitle")}
-        bgUrl="/assets/images/BackGround/Trade.png"
+        bgUrl="/assets/images/BackGround/Trade.webp"
         className=" bg-left-top"
       />
       <MaxWidthWrapper isPageContent>

@@ -1,6 +1,6 @@
 import React from "react";
 import PageBanner from "@/components/molecule/PageBanner";
-import {useTranslations} from "next-intl";
+import { useTranslations } from "next-intl";
 import MaxWidthWrapper from "@/components/Layout/MaxWithWrapper";
 import ContentWrapper from "@/components/Layout/ContentWrapper";
 
@@ -14,7 +14,7 @@ const Contact = () => {
     <div>
       <PageBanner
         title={t("heading")}
-        bgUrl="/assets/images/BackGround/Fuji.png"
+        bgUrl="/assets/images/BackGround/Fuji.webp"
       />
       <MaxWidthWrapper isPageContent>
         <ContentWrapper
@@ -27,7 +27,7 @@ const Contact = () => {
             <ContactFormCard title={t("contactFormTitle")} />
           </div>
         </ContentWrapper>
-        <Maps/>
+        <Maps />
       </MaxWidthWrapper>
     </div>
   );

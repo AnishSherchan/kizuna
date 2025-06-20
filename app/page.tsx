@@ -8,7 +8,7 @@ import Faq from "@/components/organism/Home/Faq";
 export default function HomePage() {
   return (
     <div className="relative h-full">
-      <div className=" h-[38rem] bg-[url('/assets/images/BackGround/Fuji.png')] bg-cover bg-center">
+      <div className=" h-[38rem] bg-[url('/assets/images/BackGround/Fuji.webp')] bg-cover bg-center">
         <MaxWidthWrapper className="h-full" isPageContent>
           <HeroSection />
         </MaxWidthWrapper>
