@@ -123,7 +123,8 @@
     "bannerTitle": "Employment Support",
     "title": "Employment Support",
     "spanTitle": "Service",
-    "description": "Tailored solution for your success, Elevate your experience with Our Exceptional Services Today."
+    "description": "Tailored solution for your success, Elevate your experience with Our Exceptional Services Today.",
+    "jobApplicationForm": "Job Application Form"
   },
   "ContactPage": {
     "contactFormTitle": "Please feel free to ask us anything.",
@@ -139,13 +140,28 @@
     "description": "Tailored solution for your success, Elevate your experience with Our Exceptional Services Today"
   },
   "form": {
+    "jobFormTitle": "Create Your Job",
+    "jobFormSpan": "Application",
     "name": "Name",
     "namePlaceholder": "John Tammy",
     "phone": "Phone Number",
     "phonePlaceholder": "+81 111-11-1111",
+    "gender": "Gender",
+    "male": "Male",
+    "skills": "Skills",
+    "skillsPlaceholder": "Eg: Cooking, Engineering, Electrician.",
+    "workExperience": "Work experience",
+    "workExperiencePlaceholder": "Write in short about your work experience.",
+    "female": "Female",
     "email": "Email",
     "emailPlaceholder": "johndoe@mail.net",
     "service": "Service",
+    "educationLevel": "Education Level",
+    "educationLevelPlaceholder": "Select Education Level",
+    "JpLevel": "Japanese Language Level",
+    "JpLevelPlaceholder": "Select Japanese Language Level ",
+    "enLangTest": "English Language Test",
+    "enLangTestPlaceholder": "Select English Language Test",
     "servicePlaceholder": "Choose any one Service",
     "address": "Address",
     "addressPlaceholder": "Capitol, WA",
@@ -153,7 +169,8 @@
     "knowAboutUsPlaceholder": "Instagram, Facebook, Tiktok, Others",
     "message": "Message",
     "messagePlaceholder": "Your message or query here so we can contact you back.",
-    "send": "Send"
+    "send": "Send",
+    "submit": "Submit"
   },
   "employmentSupport": {
     "para1": "At Kizuna, we specialize in connecting Nepali job seekers and students with Japanese employers across various industries, including automotive parts makers, manufacturing, and services. Our dedicated team offers comprehensive support throughout the recruitment process, ensuring a seamless transition into the Japanese workforce.",
@@ -176,5 +193,9 @@
     "para4": "We do not just help you solve your legal problems, but we want to be your trusted partner,walking alongside you and helping to build a community where everyone has the support they need, has access to new opportunities, and is respected as a person.",
     "btn1": "Get Your Legal Solution Form",
     "btn2": "Contact Us For Your Application"
+  },
+  "CvPreview": {
+    "preview": "Preview",
+    "downloadPdf": "Download PDF"
   }
 }
