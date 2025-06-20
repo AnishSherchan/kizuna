@@ -165,5 +165,16 @@
       "contact": "Contact Us For Your Application",
       "jobForm": "Job Application Form"
     }
+  },
+  "legalPage": {
+    "heading": "Legal Solution",
+    "subHeading": "Service",
+    "headingSpan": "Tailored solution for your success, Elevate your experience with Our Exceptional Services Today",
+    "para1": "Kizuna Co., Ltd. and our partner team provide services to help Nepalese people in Japan resolve visa and work related legal issues with peace of mind. Our goal is to provide early and affordable support before the issues become serious.",
+    "para2": "Offering help with visa renewals, status changes, visa applications, and labor concerns. Our team prepares legal documents, and supports communication throughout the process. With multilingual support in Nepali, English, and Japanese, we ensure clients feel understood and respected. Many of our staff are Nepali or deeply familiar with the culture, allowing us to work with compassion and cultural sensitivity.",
+    "para3": "Kizuna also engages in community outreach through social media, free legal Q&A events, and partnerships with local social workers and social events. We aim to build legal awareness and trust where it’s needed most.",
+    "para4": "We do not just help you solve your legal problems, but we want to be your trusted partner,walking alongside you and helping to build a community where everyone has the support they need, has access to new opportunities, and is respected as a person.",
+    "btn1": "Get Your Legal Solution Form",
+    "btn2": "Contact Us For Your Application"
   }
 }
