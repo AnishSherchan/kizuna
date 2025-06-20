@@ -33,7 +33,7 @@ export const aboutList2 = [{
 const AboutContent = () => {
     const t = useTranslations("AboutPage");
     return (
-        <ContentWrapper heading={"About"} subHeading={"Kizuna"} headingSpan={"Move Forward, Move With Kizuna"}>
+        <ContentWrapper heading={t("title")} subHeading={t("spanTitle")} headingSpan={t("headingSpan")}>
             <div className={'flex w-full flex-col items-center justify-center gap-[50px]'}>
                 <div
                     className="flex w-full flex-col gap-[40px] lg:flex-row justify-between items-center lg:flex-nowrap flex-wrap">

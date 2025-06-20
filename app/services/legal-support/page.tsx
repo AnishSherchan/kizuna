@@ -2,8 +2,8 @@ import React from "react";
 import PageBanner from "@/components/molecule/PageBanner";
 import { useTranslations } from "next-intl";
 import MaxWidthWrapper from "@/components/Layout/MaxWithWrapper";
-import ContentWrapper from "@/components/Layout/ContentWrapper";
 import Faq from "@/components/organism/Home/Faq";
+import LegalContent from "@/components/organism/LegalSolutionContent/LegalContent";
 
 const LegalSupport = () => {
   const t = useTranslations("legalSupportPage");
@@ -15,13 +15,7 @@ const LegalSupport = () => {
         className=" bg-no-repeat bg-bottom bg-contain"
       />
       <MaxWidthWrapper isPageContent>
-        <ContentWrapper
-          heading={t("title")}
-          subHeading={t("spanTitle")}
-          headingSpan={t("description")}
-        >
-          Legal Contents
-        </ContentWrapper>
+        <LegalContent/>
         <Faq />
       </MaxWidthWrapper>
     </div>
