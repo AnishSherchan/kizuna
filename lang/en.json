@@ -111,7 +111,21 @@
     "bannerTitle": "Car Life Support",
     "title": "Car Life Support",
     "spanTitle": "Service",
-    "description": "Elevate your experience with Our Exceptional Car Life Services Today"
+    "description": "Elevate your experience with Our Exceptional Car Life Services Today",
+    "para1head": "Car life in Japan?",
+    "para1content1": "Kizuna makes it simple. At Kizuna Corporation, we understand that owning a car is essential for many Nepalese people living in Japan, especially in areas where public transport is limited. That’s why we provide full support to help you buy and manage cars with ease and confidence.",
+    "para1content2": "Through strong partnerships with trusted Japanese used car dealers, insurance companies, loan providers, and garages, we offer a complete one-stop car life service. Whether you're buying your first car or looking for ongoing maintenance, we are here to guide you the Smart Way to Car Life.",
+    "para1btn1": "Create Your Car Life Application",
+    "para1btn2": "Contact Us For Your Application",
+    "para2": "With Kizuna’s support, Nepali people residing in Japan can overcome language, system, and financial barriers. Our goal is to build long-term trust and provide practical, reliable solutions that improve your daily life in Japan. We are not just a service provider but a true partner in your journey.",
+    "para2btn": "Create Your Car Life Application",
+    "ticks": {
+      "tick1": "Helping you find affordable, good-quality cars",
+      "tick2": "Supporting car loan applications, even if you're new to Japan",
+      "tick3": "Assisting with car registration, paperwork, and name changes",
+      "tick4": "Connecting you with reliable insurance providers",
+      "tick5": "Offering access to trusted garages for inspections, and maintenance"
+    }
   },
   "legalSupportPage": {
     "bannerTitle": "Legal Solution",
