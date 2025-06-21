@@ -19,10 +19,13 @@ import {
 } from "@/components/ui/select";
 
 import { useTranslations } from "next-intl";
+import { Checkbox } from "@/components/ui/checkbox";
+import Link from "next/link";
 
 // eslint-disable-next-line
 const JobAppForm = ({ jobSchema }: { jobSchema: any }) => {
   const t = useTranslations("form");
+
   return (
     <div className=" w-full xl:max-w-[525px] xl:min-w-[525px]  flex flex-col gap-[25px] xl:p-[10px]">
       <div>
@@ -252,6 +255,40 @@ const JobAppForm = ({ jobSchema }: { jobSchema: any }) => {
             jobSchema.errors.EnglishLanguageTest && (
               <p className="text-red-500 text-sm ">
                 {jobSchema.errors.EnglishLanguageTest}
+              </p>
+            )}
+        </div>
+
+        <div className=" flex flex-col gap-[5px]">
+          <div className="flex items-start gap-2">
+            <Checkbox
+              id="termsPrivacyAccepted"
+              name="termsPrivacyAccepted"
+              checked={jobSchema.values.termsPrivacyAccepted}
+              onCheckedChange={(checked) =>
+                jobSchema.setFieldValue("termsPrivacyAccepted", !!checked)
+              }
+              onBlur={jobSchema.handleBlur}
+            />
+            <Label htmlFor="termsPrivacyAccepted" className="text-sm">
+              {t("termsPart1")}{" "}
+              <Link
+                href="/terms-and-conditions"
+                className="underline text-[#0000FF]"
+              >
+                {t("terms")}
+              </Link>{" "}
+              {t("termsPart2")}{" "}
+              <Link href="/privacy" className="underline text-[#0000FF]">
+                {t("privacy")}
+              </Link>{" "}
+              {t("termsPart3")}
+            </Label>
+          </div>
+          {jobSchema.touched.termsPrivacyAccepted &&
+            jobSchema.errors.termsPrivacyAccepted && (
+              <p className="text-red-500 text-sm">
+                {jobSchema.errors.termsPrivacyAccepted}
               </p>
             )}
         </div>

@@ -64,7 +64,7 @@ const CVPreview = forwardRef<HTMLDivElement, CvPreviewProps>(
     };
 
     return (
-      <div className=" max-w-[765px] w-full h-full flex flex-col gap-[20px] ">
+      <div className=" hidden max-w-[765px] w-full h-full xl:flex flex-col gap-[20px] ">
         <div className=" flex  items-center justify-between">
           <div className=" flex items-center gap-[15px]">
             <h2 className=" text-[20px] font-medium">{t("preview")}</h2>

@@ -184,7 +184,12 @@
     "message": "Message",
     "messagePlaceholder": "Your message or query here so we can contact you back.",
     "send": "Send",
-    "submit": "Submit"
+    "submit": "Submit",
+    "termsPart1": "I agree to",
+    "terms": "Terms",
+    "termsPart2": "and",
+    "privacy": "Privacy Policy",
+    "termsPart3": "."
   },
   "employmentSupport": {
     "para1": "At Kizuna, we specialize in connecting Nepali job seekers and students with Japanese employers across various industries, including automotive parts makers, manufacturing, and services. Our dedicated team offers comprehensive support throughout the recruitment process, ensuring a seamless transition into the Japanese workforce.",

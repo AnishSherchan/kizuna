@@ -26,6 +26,7 @@ const JobForm = () => {
       EducationLevel: "",
       JpLanguageLevel: "",
       EnglishLanguageTest: "",
+      termsPrivacyAccepted: "",
     },
     validationSchema: Yup.object({
       name: Yup.string().required("Name is Required."),
@@ -44,6 +45,9 @@ const JobForm = () => {
       ),
       JpLanguageLevel: Yup.string(),
       EnglishLanguageTest: Yup.string(),
+      termsPrivacyAccepted: Yup.boolean()
+        .oneOf([true], "You must accept the terms and privacy policy.")
+        .required("You must accept the terms and privacy policy."),
     }),
     onSubmit: (values, { resetForm }) => {
       console.log(values);
