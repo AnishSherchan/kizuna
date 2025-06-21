@@ -199,7 +199,36 @@
     "terms": "Terms",
     "termsPart2": "and",
     "privacy": "Privacy Policy",
-    "termsPart3": "."
+    "termsPart3": ".",
+
+    "brand":"Brand / Manufacture *",
+    "brand_placeholder":"Eg: Toyota",
+    "model":"Model Name *",
+    "model_placeholder":"Eg: LC-300",
+    "fuel":"Fuel Type *",
+    "fuel_placeholder":"Eg: Electric",
+    "color":"Color",
+    "color_placeholder":"White",
+    "kilometer":"Kilometers Driven *",
+    "kilometer_placeholder":"10,000 - 30,000 Km",
+    "pricerange":"Price Range *",
+    "pricerange_placeholder":"1,00,000 - 5,00,000",
+
+    "main_brand":"Brand / Manufacture",
+    "main_brand_place":"Eg: Toyota",
+    "main_model":"Model Name",
+    "main_model_place":"Eg: LC-300",
+    "main_date":"Date of Manufacture",
+    "main_date_place":"Eg:  2020",
+    "main_km":"Kilometers Driven",
+    "main_km_place":"10,000  Km",
+    "main_expiry":"Expiry Date Of Shaken",
+    "main_expiry_place":"Eg:  2025-06-06",
+
+    "trade":"Trade",
+    "maintenance":"Maintenance",
+    "vehicle":"Vehicle Information"
+
   },
   "employmentSupport": {
     "para1": "At Kizuna, we specialize in connecting Nepali job seekers and students with Japanese employers across various industries, including automotive parts makers, manufacturing, and services. Our dedicated team offers comprehensive support throughout the recruitment process, ensuring a seamless transition into the Japanese workforce.",

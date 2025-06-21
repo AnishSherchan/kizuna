@@ -29,7 +29,7 @@ type CvPreviewProps = {
   };
 };
 
-const CVPreview = forwardRef<HTMLDivElement, CvPreviewProps>(
+const   CVPreview = forwardRef<HTMLDivElement, CvPreviewProps>(
   ({ formData }, ref) => {
     const t = useTranslations("CvPreview");
     const displayValue = (value?: string) => (value !== "" ? value : "NA");

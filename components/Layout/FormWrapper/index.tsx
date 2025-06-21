@@ -18,6 +18,7 @@ const FormWrapper = ({ children }: { children: React.ReactNode }) => {
         </Link>
       </div>
       <div className=" flex justify-between gap-[30px] flex-col xl:flex-row w-full">
+
         {children}
       </div>
     </div>
