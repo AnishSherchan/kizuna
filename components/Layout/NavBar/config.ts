@@ -3,10 +3,10 @@ export const navItems = [
     label: "home",
     href: "/",
   },
-  {
-    label: "jobs",
-    href: "/services/employment-support",
-  },
+  // {
+  //   label: "jobs",
+  //   href: "/services/employment-support",
+  // },
   {
     label: "services",
     href: "/services",
