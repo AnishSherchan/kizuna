@@ -226,5 +226,202 @@
   "CvPreview": {
     "preview": "Preview",
     "downloadPdf": "Download PDF"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "viewDownload": "View/Download PDF",
+    "intro1": "Kizuna Co., Ltd. (“our company”) provides services including employment support, car ownership and license acquisition, and legal assistance to bridge Nepalese and Japanese communities.",
+    "intro2": "We value your privacy and handle personal information in accordance with Japanese law and the following policy.",
+
+    "section1": {
+      "title": "1. Personal Information We Collect",
+      "list": [
+        "Basic details (Name, DOB, gender, address, contact, photo)",
+        "Education, work history, skills, language ability",
+        "Visa/residence info, health status (with consent)",
+        "Bank info for salary/car purchases",
+        "Car ownership history, license status",
+        "Legal documents (with consent)"
+      ]
+    },
+
+    "section2": {
+      "title": "2. Purpose of Use",
+      "list": [
+        "Job placement & career counseling",
+        "Driver’s license assistance & car support",
+        "Legal help (visa, administrative procedures)",
+        "Daily life and community support",
+        "Contract management and payroll",
+        "Improvement and development of services"
+      ]
+    },
+
+    "section3": {
+      "title": "3. Provision to Third Parties",
+      "text": "We will not share your data without your consent, except when required by law or for essential cooperation with partners like employers, banks, schools, lawyers, etc."
+    },
+
+    "section4": {
+      "title": "4. Data Security Measures",
+      "list": [
+        "Employee training and policy enforcement",
+        "Restricted access to sensitive areas and data",
+        "Security software and encryption use"
+      ]
+    },
+
+    "section5": {
+      "title": "5. Rights of Users",
+      "text": "You may request access, corrections, deletion, or suspension of your personal data at any time, and we will respond lawfully after verifying your identity."
+    },
+
+    "section6": {
+      "title": "6. Changes to This Policy",
+      "text": "This policy may be revised as needed. Updates will take effect once published on our website."
+    },
+
+    "section7": {
+      "title": "7. Contact",
+      "text": "For questions about data handling, contact:",
+      "address": [
+        "Kizuna Co., Ltd.",
+        "90 Goyashiki, Sasabara-cho, Toyota City, Aichi Prefecture",
+        "Phone: +81 565-50-5535",
+        "Email: info@kidsna.com",
+        "Effective Date: June 1, 2025"
+      ]
+    }
+  },
+
+  "terms": {
+    "title": "Terms of Service",
+    "description": "These Terms of Service (hereinafter referred to as \"these Terms\") define the conditions for using the services (hereinafter referred to as \"the Service\") provided by KIZUNA Inc. (hereinafter referred to as \"the Company\"). Users of the Service (hereinafter referred to as \"Users\") must agree to these Terms before using the Service.",
+    "viewDownload": "View/Download PDF",
+    "section1": {
+      "title": "1. Application",
+      "description": "",
+      "content": "",
+      "list": [
+        "These Terms shall apply to all users involving the provision and use of the Service.",
+        "The Company may set extra rules for specific services (called 'Individual Terms'). These will be part of the overall Terms. If there's a difference between the main Terms and the Individual Terms, the Individual Terms will apply first."
+      ]
+    },
+    "section2": {
+      "title": "2. Content of the Service",
+      "description": "The Company offers the following services to connect Nepalese people with Japanese companies and help them build successful long-term careers in Japan.",
+      "content": "",
+      "list": [
+        "Employment Support: Support for finding jobs or changing jobs at Japanese companies, including help with interviews, resumes, and CVs.",
+        "Automobile Purchase, Maintenance, and Driving License Acquisition Support: Help with getting a Japanese driver’s license, buying or leasing a car, car insurance, and maintenance.",
+        "Legal Procedure Support: Support for getting or renewing residency status, plus referrals to experts (like legal or immigration specialists) for other necessary legal procedures in Japan.",
+        "Any other services incidental or related to the preceding items."
+      ]
+    },
+    "section3": {
+      "title": "3. User Registration",
+      "content": "",
+      "description": "",
+      "list": [
+        "Those who wish to use the Service shall apply for user registration in the manner prescribed by the Company, after agreeing to these Terms.",
+        "When an application is made as per the preceding paragraph, the Company shall determine the eligibility for user registration based on its criteria and notify the applicant if registration is approved.",
+        "The Company may not approve an application for user registration if it determines any of the following reasons exist, and may revoke approval if these reasons are discovered later:",
+        "1. If there is any false, erroneous, or missing information in the application.",
+        "2. If the Company determines there is a risk of violating these Terms.",
+        "3. If the application is from a person who has previously violated these Terms.",
+        "4. If the Company determines the applicant is an anti-social force or is cooperating with them.",
+        "5. If the Company deems user registration inappropriate for any other reason."
+      ]
+    },
+    "section4": {
+      "title": "4. User Obligations",
+      "content": "",
+      "description": "",
+      "list": [
+        "Users shall not engage in any of the following acts when using the Service:",
+        "1. Acts that violate laws or public order and morals.",
+        "2. Acts related to criminal activities.",
+        "3. Acts that infringe or may infringe on the rights of the Company, other Users, or third parties.",
+        "4. Acts that discriminate against, slander, or obstruct the business of the Company, other Users, or third parties.",
+        "5. Acts that utilize information obtained through the Service beyond the scope of the Service's intended purpose.",
+        "6. Acts that may interfere with the operation of the Service.",
+        "7. Acts that illegally access or attempt to illegally access the Company's network or systems.",
+        "8. Acts that use the Service for commercial purposes (except when the Company has given prior consent).",
+        "9. Providing false information.",
+        "10. Other acts that the Company deems inappropriate.",
+        "If there are changes to registered information, Users must promptly update it. The Company is not responsible for damages caused by failure to update."
+      ]
+    },
+    "section5": {
+      "title": "5. Fees and Payment Methods",
+      "content": "",
+      "description": "",
+      "list": [
+        "Users shall pay the fees separately determined by the Company for the use of the Service, by the method specified by the Company.",
+        "Details regarding payment shall be stipulated in the Individual Terms, or in the fee schedule separately presented by the Company.",
+        "If a User delays payment of fees, the User shall pay the Company late payment interest at an annual rate of 14.6%."
+      ]
+    },
+    "section6": {
+      "title": "6. Suspension, etc., of the Service",
+      "description": "",
+      "content": "",
+      "list": [
+        "The Company may stop or pause all or part of the Service without warning if certain reasons apply, including:",
+        "1. Maintenance, inspection, or updates of the computer system related to the Service.",
+        "2. Force majeure events such as earthquakes, lightning strikes, fires, floods, power outages, or natural disasters.",
+        "3. Accidents causing computers or communication lines to stop.",
+        "4. Other cases where the Company determines the provision of the Service is difficult.",
+        "The Company shall not be liable for any disadvantages or damages incurred by the User due to the suspension or interruption of the Service."
+      ]
+    },
+    "section7": {
+      "description": "",
+      "title": "7. Usage Restrictions and Registration Deletion",
+      "content": "",
+      "list": [
+        "If a User meets any of the following conditions, the Company may limit their access to the Service or delete their account without prior notice:",
+        "1. Violation of these Terms.",
+        "2. False information in the registered details.",
+        "3. Delay or refusal in payment obligations.",
+        "4. No reply to Company contact for a certain period.",
+        "5. Any other case deemed inappropriate by the Company.",
+        "The Company shall not be liable for any damages caused by these actions."
+      ]
+    },
+    "section8": {
+      "description": "",
+      "title": "8. Disclaimer",
+      "content": "",
+      "list": [
+        "The Company does not guarantee that the information provided by the Service is accurate, complete, reliable, or useful for any specific purpose.",
+        "The Company does not guarantee the Service will meet User's specific purposes, have expected functions, commercial value, accuracy, or usefulness, nor that the Service use complies with laws or industry rules, or that no defects will occur.",
+        "The Company is not responsible for any damage caused by the Service, except for intentional or very serious mistakes.",
+        "The Company shall not be responsible for any transactions, communications, or disputes between Users or third parties related to the Service.",
+        "The Company shall not be liable for damages due to Service interruptions, suspensions, terminations, unavailability, modifications, deletion or loss of User information, registration deletion, data loss, or equipment damage caused by Service use."
+      ]
+    },
+    "section9": {
+      "description": "",
+      "title": "9. Handling of Personal Information",
+      "content": "The Company shall handle the User's personal information acquired through the use of the Service appropriately, in accordance with the 'Privacy Policy' separately stipulated.",
+      "list": []
+    },
+    "section10": {
+      "description": "",
+      "title": "10. Changes to These Terms",
+      "content": "The Company may, if deemed necessary, change these Terms at any time without prior notice to the User. If the User continues to use the Service after the change, the User shall be deemed to have agreed to the changed Terms.",
+      "list": []
+    },
+    "section11": {
+      "title": "11. Governing Law and Agreed Jurisdiction",
+      "description": "",
+      "content": "",
+      "list": [
+        "The interpretation of these Terms shall be governed by the laws of Japan.",
+        "In the event of a dispute concerning the Service, the Tokyo District Court or Tokyo Summary Court, which has jurisdiction over the Company's head office, shall be the exclusive agreed court of jurisdiction."
+      ]
+    },
+    "published": "Published: June 4, 2025"
   }
 }
