@@ -1,12 +1,10 @@
-import Text from "@/components/atom/Text";
 import FormWrapper from "@/components/Layout/FormWrapper";
 import MaxWidthWrapper from "@/components/Layout/MaxWithWrapper";
 import PageBanner from "@/components/molecule/PageBanner";
 import Image from "next/image";
-import React from "react";
 
-import CarFormImage from "@/public/assets/images/CarFormImage.webp"
 import CarSupportForm from "@/components/molecule/Forms/CarSupportForm";
+import CarFormImage from "@/public/assets/images/CarFormImage.webp";
 
 const CarSupprotForm = () => {
   return (

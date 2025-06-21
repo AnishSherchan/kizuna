@@ -1,11 +1,10 @@
-import React from "react";
-import PageBanner from "@/components/molecule/PageBanner";
-import { useTranslations } from "next-intl";
-import MaxWidthWrapper from "@/components/Layout/MaxWithWrapper";
 import FormWrapper from "@/components/Layout/FormWrapper";
-import Temple from "@/public/assets/images/Temple.webp";
-import Image from "next/image";
+import MaxWidthWrapper from "@/components/Layout/MaxWithWrapper";
 import Legal_Form from "@/components/molecule/Forms/LegalForm";
+import PageBanner from "@/components/molecule/PageBanner";
+import Temple from "@/public/assets/images/Temple.webp";
+import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 const LegalForm = () => {
   const t = useTranslations("legalSupportPage");

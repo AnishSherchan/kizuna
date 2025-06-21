@@ -1,8 +1,7 @@
-import React from "react";
-import PageBanner from "@/components/molecule/PageBanner";
-import { useTranslations } from "next-intl";
 import MaxWidthWrapper from "@/components/Layout/MaxWithWrapper";
+import PageBanner from "@/components/molecule/PageBanner";
 import OurServices from "@/components/organism/Home/OurServices";
+import { useTranslations } from "next-intl";
 
 const Page = () => {
   const t = useTranslations("ServicesPage");
