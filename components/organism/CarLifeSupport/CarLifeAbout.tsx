@@ -48,7 +48,7 @@ const CarLifeAbout = () => {
 
                         {/*Buttons*/}
                         <div className={'flex flex-col md:flex-row items-center justify-start gap-4'}>
-                            <Link href={'/'}><Button>{t("para1btn1")}</Button></Link>
+                            <Link href={'/services/car-life-support/car-support-application'}><Button>{t("para1btn1")}</Button></Link>
                             <Link href={'/'}><Button variant={'secondary'}>{t("para1btn2")}</Button></Link>
                         </div>
 
@@ -75,7 +75,7 @@ const CarLifeAbout = () => {
                             <Text variant={"card_heading"}>{t("para2")}</Text>
                         </div>
                         <div className={'w-full flex justify-center md:justify-start'}>
-                            <Link href={'/'}>
+                            <Link href={'/services/car-life-support/car-support-application'}>
                                 <Button>{t("para2btn")}</Button>
                             </Link>
                         </div>

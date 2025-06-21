@@ -1,9 +1,8 @@
-import React from "react";
-import PageBanner from "@/components/molecule/PageBanner";
-import { useTranslations } from "next-intl";
 import MaxWidthWrapper from "@/components/Layout/MaxWithWrapper";
-import Faq from "@/components/organism/Home/Faq";
+import PageBanner from "@/components/molecule/PageBanner";
 import CarLifeAbout from "@/components/organism/CarLifeSupport/CarLifeAbout";
+import Faq from "@/components/organism/Home/Faq";
+import { useTranslations } from "next-intl";
 
 const CarLifeSupport = () => {
   const t = useTranslations("CarLifeSupportPage");

@@ -26,6 +26,7 @@ const JobForm = () => {
       EducationLevel: "",
       JpLanguageLevel: "",
       EnglishLanguageTest: "",
+      termsPrivacyAccepted: "",
     },
     validationSchema: Yup.object({
       name: Yup.string().required("Name is Required."),
@@ -34,7 +35,7 @@ const JobForm = () => {
         .required("Email is required."),
       gender: Yup.string().required("Please Select Gender."),
       phone: Yup.string()
-        .matches(/^[0-9]{10}$/, "Number must be 10 digits")
+        .matches(/^\+?\d{10,15}$/, "Enter a valid phone number")
         .required("Phone number is required"),
       address: Yup.string().required("Address is required."),
       skills: Yup.string(),
@@ -44,6 +45,9 @@ const JobForm = () => {
       ),
       JpLanguageLevel: Yup.string(),
       EnglishLanguageTest: Yup.string(),
+      termsPrivacyAccepted: Yup.boolean()
+        .oneOf([true], "You must accept the terms and privacy policy.")
+        .required("You must accept the terms and privacy policy."),
     }),
     onSubmit: (values, { resetForm }) => {
       console.log(values);
