@@ -37,7 +37,7 @@ const ContactForm = () => {
         .email("Invalid Email Address.")
         .required("Email is required"),
       phone: Yup.string()
-        .matches(/^[0-9]{10}$/, "Number must be 10 digits")
+        .matches(/^\+?\d{10,15}$/, "Enter a valid phone number")
         .required("Phone number is required"),
       service: Yup.string().required("Choose one Service."),
       address: Yup.string().required("Address is required."),
