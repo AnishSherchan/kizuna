@@ -105,7 +105,7 @@ const Legal_Form = () => {
             onChange={legalFormSchema.handleChange}
             value={legalFormSchema.values.mail}
             onBlur={legalFormSchema.handleBlur}
-            placeholder={t("namePlaceholder")}
+            placeholder={t("emailPlaceholder")}
             className="w-full h-[45px] text-[14px] rounded-[10px]"
           />
           {legalFormSchema.touched.mail && legalFormSchema.errors.mail && (
@@ -242,12 +242,16 @@ const Legal_Form = () => {
               <Link
                 href="/terms-and-conditions"
                 className="underline text-[#0000FF]"
-                target={'_blank'}
+                target={"_blank"}
               >
                 {t("terms")}
               </Link>{" "}
               {t("termsPart2")}{" "}
-              <Link href="/privacy" className="underline text-[#0000FF]" target={'_blank'}>
+              <Link
+                href="/privacy"
+                className="underline text-[#0000FF]"
+                target={"_blank"}
+              >
                 {t("privacy")}
               </Link>{" "}
               {t("termsPart3")}

@@ -14,13 +14,13 @@ import Text from "@/components/atom/Text";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import {
-    Select,
-    SelectContent,
-    SelectGroup,
-    SelectItem,
-    SelectLabel,
-    SelectTrigger,
-    SelectValue,
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectLabel,
+  SelectTrigger,
+  SelectValue,
 } from "@/components/ui/select";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useTranslations } from "next-intl";
@@ -30,11 +30,10 @@ import { Calendar } from "@/components/ui/calendar";
 import { CalendarIcon } from "lucide-react";
 
 import {
-    Popover,
-    PopoverContent,
-    PopoverTrigger,
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
 } from "@/components/ui/popover";
-
 
 const CarSupportForm = () => {
   const jobSchema = useFormik({
@@ -132,7 +131,7 @@ const CarSupportForm = () => {
         .required("You must accept the terms and privacy policy."),
     }),
     onSubmit: (values, { resetForm }) => {
-      console.log(values,...values.formType);
+      console.log(values, ...values.formType);
       toast.success("Car Support Application Submission Completed", {
         description: "We will contact you with in 3 business days!",
       });
@@ -144,14 +143,18 @@ const CarSupportForm = () => {
   const [expiryOpen, setExpiryOpen] = React.useState(false);
 
   const t = useTranslations("form");
+  const ta = useTranslations("CarLifeSupportPage");
 
   return (
     <div className="w-full">
       <div className=" w-full xl:max-w-[525px] xl:min-w-[525px]  flex flex-col gap-[25px] xl:p-[10px]">
         <div>
           <h3 className=" text-[24px]">
-            {"Car Life Support"}
-            <span className=" text-primary font-medium"> {"Application"}</span>
+            {ta("title")}
+            <span className=" text-primary font-medium">
+              {" "}
+              {t("legalFormSpan")}
+            </span>
           </h3>
         </div>
 
@@ -185,7 +188,7 @@ const CarSupportForm = () => {
               onChange={jobSchema.handleChange}
               value={jobSchema.values.mail}
               onBlur={jobSchema.handleBlur}
-              placeholder={t("namePlaceholder")}
+              placeholder={t("emailPlaceholder")}
               className="w-full h-[45px] text-[14px] rounded-[10px]"
             />
             {jobSchema.touched.mail && jobSchema.errors.mail && (
@@ -237,26 +240,17 @@ const CarSupportForm = () => {
           >
             <div className="w-full  flex items-center justify-center">
               <TabsList className="p-[10px] bg-muted gap-[20px]">
-                <TabsTrigger
-                  value="trade"
-                  className="p-[15px]"
-                >
+                <TabsTrigger value="trade" className="p-[15px]">
                   <Text variant="subheading">{t("trade")}</Text>
                 </TabsTrigger>
-                <TabsTrigger
-                  value="maintenance"
-                  className="p-[15px]"
-                >
+                <TabsTrigger value="maintenance" className="p-[15px]">
                   <Text variant="subheading">{t("maintenance")}</Text>
                 </TabsTrigger>
               </TabsList>
             </div>
 
             <div>
-              <Text
-                variant="card_text"
-                className="font-bold"
-              >
+              <Text variant="card_text" className="font-bold">
                 {t("vehicle")}
               </Text>
             </div>
@@ -307,10 +301,7 @@ const CarSupportForm = () => {
             <TabsContent value="maintenance">
               <div className="flex flex-col gap-[5px]">
                 <Label>{t("main_date")}</Label>
-                <Popover
-                  open={open}
-                  onOpenChange={setOpen}
-                >
+                <Popover open={open} onOpenChange={setOpen}>
                   <PopoverTrigger asChild>
                     <Button
                       variant="outline"
@@ -325,10 +316,7 @@ const CarSupportForm = () => {
                       <CalendarIcon className="ml-auto h-4 w-4 opacity-50" />
                     </Button>
                   </PopoverTrigger>
-                  <PopoverContent
-                    className="w-auto p-0"
-                    align="start"
-                  >
+                  <PopoverContent className="w-auto p-0" align="start">
                     <Calendar
                       mode="single"
                       selected={
@@ -387,10 +375,7 @@ const CarSupportForm = () => {
             <TabsContent value="maintenance">
               <div className="flex flex-col gap-[5px]">
                 <Label>{t("main_expiry")}</Label>
-                <Popover
-                  open={expiryOpen}
-                  onOpenChange={setExpiryOpen}
-                >
+                <Popover open={expiryOpen} onOpenChange={setExpiryOpen}>
                   <PopoverTrigger asChild>
                     <Button
                       variant="outline"
@@ -405,10 +390,7 @@ const CarSupportForm = () => {
                       <CalendarIcon className="ml-auto h-4 w-4 opacity-50" />
                     </Button>
                   </PopoverTrigger>
-                  <PopoverContent
-                    className="w-auto p-0"
-                    align="start"
-                  >
+                  <PopoverContent className="w-auto p-0" align="start">
                     <Calendar
                       mode="single"
                       selected={
@@ -644,7 +626,7 @@ const CarSupportForm = () => {
           </Tabs>
 
           <div className=" flex flex-col gap-[5px]">
-            <div className="flex items-start gap-2">
+            <div className="flex flex-wrap items-start gap-2">
               <Checkbox
                 id="termsPrivacyAccepted"
                 name="termsPrivacyAccepted"
@@ -654,15 +636,12 @@ const CarSupportForm = () => {
                 }
                 onBlur={jobSchema.handleBlur}
               />
-              <Label
-                htmlFor="termsPrivacyAccepted"
-                className="text-sm"
-              >
+              <Label htmlFor="termsPrivacyAccepted" className="text-sm">
                 {t("termsPart1")}{" "}
                 <Link
                   href="/terms-and-conditions"
                   className="underline text-[#0000FF]"
-                  target={'_blank'}
+                  target={"_blank"}
                 >
                   {t("terms")}
                 </Link>{" "}
@@ -670,7 +649,7 @@ const CarSupportForm = () => {
                 <Link
                   href="/privacy"
                   className="underline text-[#0000FF]"
-                  target={'_blank'}
+                  target={"_blank"}
                 >
                   {t("privacy")}
                 </Link>{" "}
@@ -687,10 +666,7 @@ const CarSupportForm = () => {
 
           {/* Button */}
           <div className=" w-full flex justify-end">
-            <Button
-              disabled={jobSchema.isSubmitting}
-              type="submit"
-            >
+            <Button disabled={jobSchema.isSubmitting} type="submit">
               {jobSchema.isSubmitting ? "Sending..." : t("submit")}
               {!jobSchema.isSubmitting && (
                 <BiSolidChevronRight className="text-white h-[12px] w-[12px] items-center" />
