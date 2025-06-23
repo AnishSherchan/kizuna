@@ -275,11 +275,12 @@ const JobAppForm = ({ jobSchema }: { jobSchema: any }) => {
               <Link
                 href="/terms-and-conditions"
                 className="underline text-[#0000FF]"
+                target={'_blank'}
               >
                 {t("terms")}
               </Link>{" "}
               {t("termsPart2")}{" "}
-              <Link href="/privacy" className="underline text-[#0000FF]">
+              <Link href="/privacy" className="underline text-[#0000FF]" target={'_blank'}>
                 {t("privacy")}
               </Link>{" "}
               {t("termsPart3")}
