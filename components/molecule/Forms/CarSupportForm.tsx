@@ -662,6 +662,7 @@ const CarSupportForm = () => {
                 <Link
                   href="/terms-and-conditions"
                   className="underline text-[#0000FF]"
+                  target={'_blank'}
                 >
                   {t("terms")}
                 </Link>{" "}
@@ -669,6 +670,7 @@ const CarSupportForm = () => {
                 <Link
                   href="/privacy"
                   className="underline text-[#0000FF]"
+                  target={'_blank'}
                 >
                   {t("privacy")}
                 </Link>{" "}
