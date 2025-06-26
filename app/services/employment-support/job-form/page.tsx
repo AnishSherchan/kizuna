@@ -101,7 +101,7 @@ const JobForm = () => {
       <MaxWidthWrapper isPageContent className=" flex flex-col gap-[30px]">
         <FormWrapper>
           {/* Form */}
-          <div className="w-full flex items-center justify-center">
+          <div className=" w-full xl:max-w-[525px] xl:min-w-[525px]  flex items-center justify-center">
             <JobAppForm jobSchema={jobSchema} />
           </div>
           {/* PDF */}

@@ -41,7 +41,7 @@ const CarSupprotForm = () => {
           {/* main div */}
           <div className="w-full flex flex-col md:flex-row items-center md:items-stretch justify-between">
             {/* Form div */}
-            <div className="w-full flex items-center justify-center">
+            <div className=" w-full xl:max-w-[525px] xl:min-w-[525px] flex items-center justify-center">
               <CarSupportForm />
             </div>
 
