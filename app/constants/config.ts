@@ -1,6 +1,6 @@
-import employment_service from "@/public/assets/images/service1.png";
-import car_support from "@/public/assets/images/service2.png";
-import legal_solutions from "@/public/assets/images/service3.png";
+import employment_service from "@/public/assets/images/service1.webp";
+import car_support from "@/public/assets/images/service2.webp";
+import legal_solutions from "@/public/assets/images/service3.webp";
 
 export const companyEmail = "info@kizuna.com";
 export const phoneNumber = "+81 565-50-5535";

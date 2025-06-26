@@ -1,7 +1,7 @@
 import React from "react";
 import ContentWrapper from "@/components/Layout/ContentWrapper";
 import Image from "next/image";
-import CarImage from "@/public/assets/images/carImage.png";
+import CarImage from "@/public/assets/images/carImage.webp";
 import Text from "@/components/atom/Text";
 import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";

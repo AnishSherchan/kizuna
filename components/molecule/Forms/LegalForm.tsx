@@ -22,6 +22,10 @@ import {
 import Link from "next/link";
 import { Checkbox } from "@/components/ui/checkbox";
 
+
+
+
+
 const Legal_Form = () => {
   const t = useTranslations("form");
 

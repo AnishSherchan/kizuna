@@ -1,8 +1,8 @@
 import React from "react";
 import ContentWrapper from "@/components/Layout/ContentWrapper";
 import Image from "next/image";
-import employmentService1 from "@/public/assets/images/employmentService1.png";
-import StreetMap from "@/public/assets/images/StreetImage.png";
+import employmentService1 from "@/public/assets/images/employmentService1.webp";
+import StreetMap from "@/public/assets/images/StreetImage.webp";
 import Text from "@/components/atom/Text";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";

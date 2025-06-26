@@ -1,10 +1,29 @@
+"use client";
+import dynamic from "next/dynamic";
 import FormWrapper from "@/components/Layout/FormWrapper";
 import MaxWidthWrapper from "@/components/Layout/MaxWithWrapper";
-import Legal_Form from "@/components/molecule/Forms/LegalForm";
 import PageBanner from "@/components/molecule/PageBanner";
 import Temple from "@/public/assets/images/Temple.webp";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { Skeleton } from "@/components/ui/skeleton";
+
+function FormSkeleton() {
+  return (
+    <div className="w-full space-y-4">
+      <Skeleton className="h-full w-1/2" />
+      {[...Array(11)].map((_, i) => (
+        <Skeleton key={i} className="h-[45px] w-full" />
+      ))}
+      <Skeleton className="h-10 w-1/3 float-right" />
+    </div>
+  );
+}
+
+const Legal_Form = dynamic(
+  () => import("@/components/molecule/Forms/LegalForm"),
+  { ssr: false, loading: () => <FormSkeleton /> }
+);
 
 const LegalForm = () => {
   const t = useTranslations("legalSupportPage");
@@ -18,7 +37,9 @@ const LegalForm = () => {
       <MaxWidthWrapper isPageContent>
         <FormWrapper>
           {/* Form */}
-          <Legal_Form />
+          <div className="w-full flex items-center justify-center">
+            <Legal_Form />
+          </div>
           <Image
             src={Temple}
             alt="Temple"

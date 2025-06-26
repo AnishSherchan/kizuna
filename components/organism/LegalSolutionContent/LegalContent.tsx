@@ -1,7 +1,7 @@
 import React from "react";
 import ContentWrapper from "@/components/Layout/ContentWrapper";
 import Image from "next/image";
-import legal from "@/public/assets/images/legal.png";
+import legal from "@/public/assets/images/employmentService1.webp";
 import { Button } from "@/components/ui/button";
 import Text from "@/components/atom/Text";
 import Link from "next/link";
