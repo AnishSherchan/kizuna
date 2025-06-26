@@ -1,4 +1,5 @@
 "use client";
+import dynamic from "next/dynamic";
 import React, { useRef } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
@@ -8,8 +9,40 @@ import PageBanner from "@/components/molecule/PageBanner";
 import MaxWidthWrapper from "@/components/Layout/MaxWithWrapper";
 import FormWrapper from "@/components/Layout/FormWrapper";
 import { useTranslations } from "next-intl";
-import JobAppForm from "@/components/molecule/Forms/JobAppForm";
-import CVPreview from "@/components/organism/EmploymentPageContent/CvPreview";
+import { Skeleton } from "@/components/ui/skeleton";
+
+function FormSkeleton() {
+  return (
+    <div className="w-full space-y-4">
+      <Skeleton className="h-full w-1/2" />
+      {[...Array(16)].map((_, i) => (
+        <Skeleton key={i} className="h-[45px] w-[100%]" />
+      ))}
+      <Skeleton className="h-10 w-1/3 float-right" />
+    </div>
+  );
+}
+
+const JobAppForm = dynamic(
+  () => import("@/components/molecule/Forms/JobAppForm"),
+  { ssr: false, loading: () => <FormSkeleton /> }
+);
+
+const CVPreview = dynamic(
+  () => import("@/components/organism/EmploymentPageContent/CvPreview"),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="flex flex-col gap-[30px]">
+        <div className=" flex justify-between">
+          <Skeleton className=" w-[160px] h-[40px]" />
+          <Skeleton className=" w-[160px] h-[40px]" />
+        </div>
+        <Skeleton className=" w-full h-[800px]" />
+      </div>
+    ),
+  }
+);
 
 const JobForm = () => {
   const t = useTranslations("EmploymentSupportPage");
@@ -68,9 +101,13 @@ const JobForm = () => {
       <MaxWidthWrapper isPageContent className=" flex flex-col gap-[30px]">
         <FormWrapper>
           {/* Form */}
-          <JobAppForm jobSchema={jobSchema} />
+          <div className="w-full flex items-center justify-center">
+            <JobAppForm jobSchema={jobSchema} />
+          </div>
           {/* PDF */}
-          <CVPreview formData={jobSchema.values} ref={cvRef} />
+          <div className=" h-full w-full">
+            <CVPreview formData={jobSchema.values} ref={cvRef} />
+          </div>
         </FormWrapper>
       </MaxWidthWrapper>
     </main>

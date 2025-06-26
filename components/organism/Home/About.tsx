@@ -3,7 +3,7 @@ import ContentWrapper from "@/components/Layout/ContentWrapper";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
-import StreetImage from "@/public/assets/images/StreetImage.png";
+import StreetImage from "@/public/assets/images/StreetImage.webp";
 import Text from "@/components/atom/Text";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";

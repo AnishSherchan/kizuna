@@ -1,10 +1,30 @@
+"use client";
+import dynamic from "next/dynamic";
+
 import FormWrapper from "@/components/Layout/FormWrapper";
 import MaxWidthWrapper from "@/components/Layout/MaxWithWrapper";
 import PageBanner from "@/components/molecule/PageBanner";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { Skeleton } from "@/components/ui/skeleton";
 
-import CarSupportForm from "@/components/molecule/Forms/CarSupportForm";
+function FormSkeleton() {
+  return (
+    <div className="w-full space-y-4">
+      <Skeleton className="h-full w-1/2" />
+      {[...Array(14)].map((_, i) => (
+        <Skeleton key={i} className="h-[45px] w-[90%]" />
+      ))}
+      <Skeleton className="h-10 w-1/3 float-right" />
+    </div>
+  );
+}
+
+const CarSupportForm = dynamic(
+  () => import("@/components/molecule/Forms/CarSupportForm"),
+  { ssr: false, loading: () => <FormSkeleton /> }
+);
+
 import CarFormImage from "@/public/assets/images/CarFormImage.webp";
 
 const CarSupprotForm = () => {
