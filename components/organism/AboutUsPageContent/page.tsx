@@ -1,7 +1,7 @@
 import React from "react";
 import ContentWrapper from "@/components/Layout/ContentWrapper";
 import Image from "next/image";
-import StreetImage from "@/public/assets/images/StreetImage.png";
+import StreetImage from "@/public/assets/images/StreetImage.webp";
 import Text from "@/components/atom/Text";
 import { useTranslations } from "next-intl";
 
