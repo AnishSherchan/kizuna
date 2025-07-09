@@ -3,6 +3,7 @@ import PageBanner from "@/components/molecule/PageBanner";
 import MaxWidthWrapper from "@/components/Layout/MaxWithWrapper";
 import { useTranslations } from "next-intl";
 import { Separator } from "@/components/ui/separator";
+import { BsFileEarmarkPdf } from "react-icons/bs";
 
 export default function TermsOfServicePage() {
   const t = useTranslations("terms");
@@ -19,61 +20,58 @@ export default function TermsOfServicePage() {
             {t("title")}
           </h1>
 
-          <div className="w-full flex justify-end py-5">
+          <div className="w-full flex py-1">
             <a
               href="/terms.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+              className="text-sm bg-blue-600 flex items-center gap-2 text-white px-4 py-2 rounded hover:bg-blue-700"
             >
+              <BsFileEarmarkPdf className=" w-[20px] h-[20px]" />
               {t("viewDownload")}
             </a>
           </div>
 
-          {Array.from({ length: 11 }, (_, i) => {
-            const index = i + 1;
+          <div>{t("termsIntro")}</div>
 
-            const sectionTitle = t(`section${index}.title`);
-            const sectionList = t.raw(`section${index}.list`);
-            const sectionContent = t(`section${index}.content`);
-
-            // Skip if no content at all
-            const hasList =
-              Array.isArray(sectionList) && sectionList.length > 0;
-            const hasContent =
-              sectionContent && sectionContent.trim().length > 0;
-
-            if (!hasList && !hasContent) return null;
-
-            return (
-              <section key={index} className=" space-y-5">
-                <div>
-                  <h2 className="text-2xl font-semibold mt-8 mb-2">
-                    {sectionTitle}
-                  </h2>
-
-                  {hasList ? (
-                    <ul className="list-disc pl-6 space-y-1">
-                      {sectionList.map((item: string, idx: number) => (
-                        <li key={idx}>{item}</li>
+          {/* Sections */}
+          <article className=" flex flex-col gap-5">
+            {/* eslint-disable */}
+            {t.raw("sectionTerms")?.map((article: any, idx: number) => (
+              <div key={idx} className=" space-y-2">
+                <h2 className="text-[24px] font-semibold">{article.title}</h2>
+                <p>{article.desc}</p>
+                {article?.list && (
+                  <>
+                    <ul className=" list-decimal ml-6 pb-4 space-y-2">
+                      {article?.list?.map((listItem: any, index: number) => (
+                        <li key={index} className=" space-y-2">
+                          <h3>{listItem?.title}</h3>
+                          <ul className=" list-[lower-roman] list-inside ml-6 space-y-2">
+                            {listItem?.points?.map(
+                              (pointsTitle: any, i: number) => (
+                                <li key={i}>{pointsTitle?.title}</li>
+                              )
+                            )}
+                          </ul>
+                        </li>
                       ))}
                     </ul>
-                  ) : hasContent ? (
-                    <p>{sectionContent}</p>
-                  ) : null}
-                </div>
-                <Separator />
-              </section>
-            );
-          })}
+                    <Separator />
+                  </>
+                )}
+              </div>
+            ))}
+          </article>
 
-          <div className="w-full flex justify-end py-5">
+          <div className="w-full flex justify-end py-1">
             <a
               href="/terms.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+              className="text-sm bg-blue-600 flex items-center gap-2 text-white px-4 py-2 rounded hover:bg-blue-700"
             >
+              <BsFileEarmarkPdf className=" w-[20px] h-[20px]" />
               {t("viewDownload")}
             </a>
           </div>
